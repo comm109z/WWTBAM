@@ -31,5 +31,5 @@ class GameBoard:
             self.user_name = input("Enter your name: ").title().strip()
 
     def load_questions(self, filename="questions.json"):
-        
+        self.questions
 
