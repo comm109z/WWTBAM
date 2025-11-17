@@ -20,7 +20,8 @@ class Question:
         self.answers['b'] = { "text": answers["wrong"][0], "correct": False  } 
         self.answers['c'] = { "text": answers["wrong"][1], "correct": False  } 
         self.answers['d'] = { "text": answers["wrong"][2], "correct": False  } 
-        self.answers
+        self.answers['correct'] = 
+        
         self.fiftyfifty_used = False
     
     def __str__(self):
