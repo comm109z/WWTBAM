@@ -108,7 +108,9 @@ class GameBoard:
             self.level += 1
         else:
             if self.level > 11:
-                self.level
+                self.level = 11
+            elif self.level > 5:
+                self.level = 11
             
 
 
