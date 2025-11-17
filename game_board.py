@@ -126,6 +126,13 @@ class GameBoard:
                 # Player answered correctly → move up one level
                 self.level += 1
 
+                if self.level > 11:
+                    self.level = 11   # Player reached the second safety net
+                elif self.level > 5:
+                    self.level = 5    # Player reached only the first safety net
+                else:
+                    self.level = 0    # Player did not reach any guaranteed level
+
                 # If the player is past the final level, end the game
                 if self.level >= len(self.board):
                     ended = True
