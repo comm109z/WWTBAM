@@ -44,7 +44,7 @@ class Question:
 
     def fiftyfifty(self):
         wrong_ans = [ "a", "b", "c", "d" ]
-        if self.a['']
+        if self.a["correct"] 
         random.shuffle(wrong_ans)
 
             
