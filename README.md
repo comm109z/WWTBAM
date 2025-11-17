@@ -6,11 +6,9 @@ AIM - Develop a version of the game using:
 - question bank stored within files
 - tests to validate the game code
 
-### Define Class Structure
+### Define Class Structures
 
 `Question` class
-
-
 
 #### Attributes
 
