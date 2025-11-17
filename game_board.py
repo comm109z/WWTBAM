@@ -103,6 +103,7 @@ class GameBoard:
     def play_game(self):
         self.get_user_name()
         print(self)
+        status = "inplay"
         result = self.play_round()
         if result == True:
             self.level += 1
@@ -116,7 +117,7 @@ class GameBoard:
             else:
                 self.level = 0
             self.status = "ended"
-        
+        if self.s
         
             
 
