@@ -10,4 +10,5 @@ question_dict = {  "difficulty": 100,
 my_question = Question(question_dict)
 my_question.randomise()
 my_question.fiftyfifty()
+my_question.fiftyfifty()
 print(my_question)
