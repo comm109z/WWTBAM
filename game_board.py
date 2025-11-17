@@ -100,7 +100,9 @@ class GameBoard:
             print("Incorrect!")
             return False
 
-    def play_game():
+    def play_game(self):
+        self.get_user_name()
+        
 
 
 
