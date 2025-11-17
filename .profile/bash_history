@@ -21,3 +21,4 @@ conda activate base
 /opt/conda/bin/python
 python check_work.py 
 python
+python check_work.py 
