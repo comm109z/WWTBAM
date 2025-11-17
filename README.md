@@ -25,6 +25,7 @@ initialise it from the options, correct ans and three wrong ans
 
 .randomise() shuffle answers randomly
 .fiftyfifty() remove two wrong answers at random
+.check_answer()
 
 `GameBoard` Class
 
