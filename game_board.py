@@ -19,4 +19,4 @@ class GameBoard:
             row_str += f"£{self.board[idx]}\n"
             mystr += row_str
         mystr += f"Lifelines: {self.n_lifelines}\n"
-        mystr += f"Answer locked in: {self.n_lifelines}\n"
+        mystr += f"Answer locked in: {self.final_answer}\n"
