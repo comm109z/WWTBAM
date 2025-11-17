@@ -48,3 +48,4 @@ class Question:
         d = self.d
         options = [ a, b, c, d ]
         random.shuffle(options)
+        while options
