@@ -23,3 +23,5 @@ from game_board import GameBoard
 
 board = GameBoard()
 print(board)
+board.get_user_name()
+print(board)
