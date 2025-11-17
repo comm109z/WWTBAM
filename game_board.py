@@ -43,7 +43,8 @@ class GameBoard:
                 print("Loaded text from file")
                 loaded_object = json.loads(content)
                 print("Extracted object")
-                self.questions = loaded_object['questions']
+                questions_json = loaded_object['questions']
+                for item in 
                 questions_loaded = True
             except:
                 print("Could not load questions!")
