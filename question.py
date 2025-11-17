@@ -47,11 +47,11 @@ class Question:
         wrong_ans = [  ]
         if self.a["correct"] == False:
             wrong_ans.append("a")
-        if self.a["correct"] == False:
+        if self.b["correct"] == False:
             wrong_ans.append("b")
-        if self.a["correct"] == False:
+        if self.c["correct"] == False:
             wrong_ans.append("c")
-        if self.a["correct"] == False:
+        if self.d["correct"] == False:
             wrong_ans.append("d")
 
         # remove 1 / 3 
