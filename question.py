@@ -44,5 +44,6 @@ class Question:
 
     def fiftyfifty(self):
         wrong_ans = [ 0, 1, 2 ]
-        random.shuffle()
+        random.shuffle(wrong_ans)
+        
             
