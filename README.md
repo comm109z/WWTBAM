@@ -34,7 +34,7 @@ initialise it from the options, correct ans and three wrong ans
 - money ladder
 - player level (money)
 - question_set
-- lifelin
+- lifelines left (number of 50:50s)
 
 
 
