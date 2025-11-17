@@ -43,8 +43,8 @@ class Question:
     
 
     def fiftyfifty(self):
-        wrong_ans = [ "a", "b", "c", "d" ]
-        if self.a["correct"] 
+        if self.a["correct"] == False:
+            wrong_ans.append("a")
         random.shuffle(wrong_ans)
 
             
