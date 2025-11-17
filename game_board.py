@@ -41,5 +41,5 @@ class GameBoard:
             except:
                 filename = None
                 print("Could not load questions!")
-                input("Enter the question file:")
+                filename = input("Enter the question file: ")
 
