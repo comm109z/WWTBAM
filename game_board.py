@@ -8,5 +8,6 @@ class GameBoard:
         self.final_answer = False
 
     def __str__(self):
-        mystr = f"Player name {self.user}"
-        mys
+        mystr = f"Player name {self.user}\n"
+        mystr += "\n"
+        
