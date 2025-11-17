@@ -17,4 +17,6 @@ class Question:
         self.b = { "text": answers["wrong"][0], "correct": False  } 
         self.c = { "text": answers["wrong"][1], "correct": False  } 
         self.d = { "text": answers["wrong"][2], "correct": False  } 
+    
+    def randomise(self):
         
