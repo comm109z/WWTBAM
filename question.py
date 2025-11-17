@@ -63,15 +63,7 @@ class Question:
             return False
 
         # get list of wrong options
-        wrong_ans = [  ]
-        if self.a["correct"] == False:
-            wrong_ans.append("a")
-        if self.b["correct"] == False:
-            wrong_ans.append("b")
-        if self.c["correct"] == False:
-            wrong_ans.append("c")
-        if self.d["correct"] == False:
-            wrong_ans.append("d")
+        wrong_ans = 
 
         # remove 1 / 3 
         wrong_ans.pop(random.randint(0,2)) 
