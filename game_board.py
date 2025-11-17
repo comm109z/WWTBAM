@@ -64,5 +64,6 @@ class GameBoard:
 
         self.question.display_to_user()
         while self.final_answer == False:
+            print("Enter and option a-d or ")
             user_ans = input("Your answer: ")
-            
+
