@@ -107,7 +107,7 @@ class GameBoard:
         if result == True:
             self.level += 1
             if self.level >= len(self.board):
-                
+                self.status = "ended"
         else:
             if self.level > 11:
                 self.level = 11
