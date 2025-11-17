@@ -1,4 +1,4 @@
-## Who wants to be a millionaire
+## Who Wants To Be A millionaire
 
 AIM - Develop a version of the game using:
 
