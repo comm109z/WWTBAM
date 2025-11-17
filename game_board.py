@@ -125,7 +125,10 @@ class GameBoard:
             if result == True:
                 # Player answered correctly → move up one level
                 self.level += 1
-            
+                if self.level in self.safe_levels:
+                    self.winnings = 
+
+
                 # If the player is past the final level, end the game
                 if self.level >= len(self.board):
                     ended = True
