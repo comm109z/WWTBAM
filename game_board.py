@@ -32,6 +32,8 @@ class GameBoard:
 
     def load_questions(self, filename="questions.json"):
         try:
-            content = Path(filename)
+            content = Path(filename).read_txt()
             self.questions = json.loads(content)
+        except:
+            
 
