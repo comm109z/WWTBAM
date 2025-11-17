@@ -35,5 +35,5 @@ class GameBoard:
             content = Path(filename).read_txt()
             self.questions = json.loads(content)
         except:
-            
+            print("Could not load questions!")
 
