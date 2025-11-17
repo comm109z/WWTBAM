@@ -113,4 +113,5 @@ class Question:
             # otherwise must be wrong
             else:
                 return "wrong"
-        elif:
+        else:
+            return "invalid"
