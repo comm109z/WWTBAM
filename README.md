@@ -13,7 +13,7 @@ AIM - Develop a version of the game using:
 #### Attributes
 
  - Question Text
- - 
+ - Difficulty
  - Option A
  - Option B
  - Option C
