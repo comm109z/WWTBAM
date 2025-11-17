@@ -61,6 +61,7 @@ class GameBoard:
         self.question = random.choice(poss_questions)
 
     def play_round(self):
+        self.question.g
         self.question.display_to_user()
         while self.final_answer == False:
             print("Enter and option A B C or D or L to use a lifeline:")
