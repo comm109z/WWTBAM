@@ -38,8 +38,8 @@ class Question:
         mystr = ""
         mystr += f"Q. {self.text}\n"
         for key in [ "a", "b", "c", "d" ]:
-            text = self.answer[key]['text']
-            correct = self.answer[key]['correct']
+            text = self.answers[key]['text']
+            correct = self.answers[key]['correct']
             mystr += f"{key.upper()}. {text} ({correct})\n"
         return mystr
 
