@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 
 class GameBoard:
     def __init__(self, filename="questions.json"):
