@@ -139,7 +139,7 @@ class GameBoard:
                     ended = True
                 else:
                     # Otherwise, ask the player if they want to continue or walk away
-                    # w
+                    # with winnings at their current level
                     carry_on = input("Do you want to carry on? Y/N").lower()
                     if carry_on != 'y':
                         print("You have decided to end your game!")
