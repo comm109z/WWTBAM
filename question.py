@@ -46,6 +46,14 @@ class Question:
         wrong_ans = [  ]
         if self.a["correct"] == False:
             wrong_ans.append("a")
+        if self.a["correct"] == False:
+            wrong_ans.append("b")
+        if self.a["correct"] == False:
+            wrong_ans.append("c")
+        if self.a["correct"] == False:
+            wrong_ans.append("d")
+
+        
         random.shuffle(wrong_ans)
 
             
