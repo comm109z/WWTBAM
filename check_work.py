@@ -1,5 +1,5 @@
 from question import Question
-from game_board iumport 
+from game_board import GameBoard
 
 # question_dict = {  "difficulty": 100,
 #                         "question": "What colour is an emerald?",
@@ -20,3 +20,4 @@ from game_board iumport
 # print(f"b is ... {my_question.check_ans('b')}")
 # print(f"b is ... {my_question.check_ans('c')}")
 # print(f"b is ... {my_question.check_ans('d')}")
+
