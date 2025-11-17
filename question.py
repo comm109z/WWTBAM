@@ -24,9 +24,9 @@ class Question:
         mystr = ""
         mystr += f"Q. {self.text}\n"
         mystr += f"A. {self.a['text'] ({self.a['correct']}) }\n"
-        mystr += f"B. {self.b['text'] ({self.['correct']})}\n"
-        mystr += f"D. {self.c['text'] ({self.correct})}\n"
-        mystr += f"D. {self.d['text'] ({self.correct})}\n"
+        mystr += f"B. {self.b['text'] ({self.b['correct']})}\n"
+        mystr += f"D. {self.c['text'] ({self.c['correct']})}\n"
+        mystr += f"D. {self.d['text'] ({self.d['correct']})}\n"
 
     def randomise(self):
         a = self.a
