@@ -1,2 +1,3 @@
 class Question:
-    def 
+    def __init__(self):
+        pass
