@@ -108,13 +108,14 @@ class GameBoard:
         # Ask the player for their name before starting the game
         self.get_user_name()
 
-        # Print the game state or welcome message (depends on __str__)
-        print(self)
-
         ended = False  # Controls the main game loop
 
         # Keep playing rounds until the game ends
         while ended == False:
+
+        # Print the game state or welcome message (depends on __str__)
+        print(self)
+
             result = self.play_round()  # Play one question round and get True/False
 
             if result == True:
