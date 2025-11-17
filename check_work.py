@@ -8,8 +8,8 @@ question_dict = {  "difficulty": 100,
     
 # initialise Question object with this data
 my_question = Question(question_dict)
-print(f"{my_question.check_ans('a')}
-print(f"{my_question.check_ans('b')}
+print(f"a is ... {my_question.check_ans('a')}
+print(f"b is ... {my_question.check_ans('b')}
 
 
 my_question.fiftyfifty()
