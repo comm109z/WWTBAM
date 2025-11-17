@@ -44,7 +44,4 @@ class Question:
 
     def fiftyfifty(self):
         
-        options = [ a, b, c, d ]
-        random.shuffle(options)
-        while len(options) > 2:
             
