@@ -52,4 +52,5 @@ class GameBoard:
                 print("Could not load questions!")
                 file_to_load = input("Enter the question file: ").strip()
 
-    
+    def get_next_question(self):
+        
