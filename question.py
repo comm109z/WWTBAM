@@ -19,7 +19,7 @@ class Question:
         self.b = { "text": answers["wrong"][0], "correct": False  } 
         self.c = { "text": answers["wrong"][1], "correct": False  } 
         self.d = { "text": answers["wrong"][2], "correct": False  } 
-        self.fiftyfifty_
+        self.fiftyfifty_used = False
     
     def __str__(self):
         mystr = ""
