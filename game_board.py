@@ -83,6 +83,7 @@ class GameBoard:
                 # If 50:50 was successfully applied, redisplay the updated options
                 if result == True:
                     self.question.display_to_user()
+                    # decrease available lifelines
                     self.n_lifelines = self.n_lifelines - 1
 
             # If the user entered a valid answer choice (A, B, C, or D)
