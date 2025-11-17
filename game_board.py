@@ -14,4 +14,4 @@ class GameBoard:
             if idx == self.level:
                 row_str = " * "
             else:
-                
+                row_str = "   "
