@@ -24,7 +24,8 @@ class Question:
         self.answers['wrong'] = self.get_wrong()
         self.fiftyfifty_used = False
     
-    def 
+    def get_correct(self):
+        for 
 
     def __str__(self):
         mystr = ""
