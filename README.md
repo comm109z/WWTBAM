@@ -24,7 +24,7 @@ Each option is dict with text and boolean correct/incorrect
 initialise it from the options, correct ans and three wrong ans
 
 .randomise() shuffle answers randomly
-
+.fiftyfifty() remove two wrong answers at random
 
 `GameBoard` Class
 
