@@ -10,8 +10,8 @@ question_dict = {  "difficulty": 100,
 my_question = Question(question_dict)
 print(f"a is ... {my_question.check_ans('a')}
 print(f"b is ... {my_question.check_ans('b')}
-
-
+print(f"b is ... {my_question.check_ans('c')}
+print(f"b is ... {my_question.check_ans('d')}
 my_question.fiftyfifty()
 my_question.fiftyfifty()
 print(my_question)
