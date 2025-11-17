@@ -63,7 +63,7 @@ class Question:
             return False
 
         # get list of wrong options
-        wrong_ans = 
+        wrong_ans = self.get_wrong()
 
         # remove 1 / 3 
         wrong_ans.pop(random.randint(0,2)) 
