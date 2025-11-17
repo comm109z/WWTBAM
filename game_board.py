@@ -23,7 +23,8 @@ class GameBoard:
         mystr += f"Answer locked in: {self.final_answer}\n"
         return mystr
     
-    def get_user_name():
+    def get_user_name(self):
         user_name = ""
         while len(user_name) > 3:
-            user_name = input("Enter your name: ").title()
+            user_name = input("Enter your name: ").title().strip()
+        
