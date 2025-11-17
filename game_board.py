@@ -68,5 +68,5 @@ class GameBoard:
             user_ans = input("> ")
             if user_ans == "L" and self.n_lifeline > 0:
                 self.question.fiftyfifty()
-            elif user_ans
+            elif self.question(user_ans
 
