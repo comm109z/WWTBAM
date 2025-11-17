@@ -2,4 +2,4 @@ class GameBoard:
     def __init__(self):
         self.user = None
         self.board = [] # money levels
-        self.level = 0 # 
+        self.level = 0 # index of round in the board
