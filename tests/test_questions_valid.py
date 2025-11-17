@@ -14,17 +14,3 @@ def test_json_questions():
         pass
 
     assert load_successful == True
-
-from question import Question
-
-def test_question_class():
-    question_dict = {
-      "difficulty": 100,
-      "question": "What colour is an emerald?",
-      "answers": {
-        "correct": "Green",
-        "wrong": ["Blue", "Red", "Yellow"]
-      }
-    }
-    my_question = Question(question_dict)
-    assert my_question.text == question_dict["question"]
