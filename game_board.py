@@ -67,5 +67,6 @@ class GameBoard:
             print("Enter and option A B C or D or L to use a lifeline:")
             user_ans = input("> ")
             if user_ans == "L" and self.n_lifeline > 0:
-                self.n_lifeline
+                self.question.fiftyfifty()
+            
 
