@@ -53,6 +53,7 @@ class GameBoard:
                 file_to_load = input("Enter the question file: ").strip()
 
     def get_next_question(self):
+        money_amount = self.board[self.level]
         poss_questions = []
         for item in self.questions:
             if item['difficulty'] == self.board[self.level]
