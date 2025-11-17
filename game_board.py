@@ -119,8 +119,8 @@ class GameBoard:
                 self.level = 0
         if ended:
             print("Thats the end of the game!")
-            print("ou walk away with a check for...")
-        
+            print("You walk away with a check for...")
+            print(self.board)
             
 
 
