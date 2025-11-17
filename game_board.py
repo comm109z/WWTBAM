@@ -109,49 +109,49 @@ class GameBoard:
             print("Incorrect!")
             return False
 
- def play_game(self):
-    # Ask the player for their name before starting the game
-    self.get_user_name()
+    def play_game(self):
+        # Ask the player for their name before starting the game
+        self.get_user_name()
 
-    ended = False  # Controls the main game loop
+        ended = False  # Controls the main game loop
 
-    # Keep playing rounds until the game ends
-    while ended == False:
+        # Keep playing rounds until the game ends
+        while ended == False:
 
-        # Print the current game state or welcome message
-        # (depends on the __str__ method of the class)
-        print(self)
+            # Print the current game state or welcome message
+            # (depends on the __str__ method of the class)
+            print(self)
 
-        # Play one question round and get True if correct, False if incorrect
-        result = self.play_round()
+            # Play one question round and get True if correct, False if incorrect
+            result = self.play_round()
 
-        if result == True:
-            # Player answered correctly → move up one level
-            self.level += 1
+            if result == True:
+                # Player answered correctly → move up one level
+                self.level += 1
 
-            # If the player has reached a safe level, register current winnings
-            # Safe levels guarantee a minimum prize even if a future answer is wrong
-            if self.level in self.safe_levels:
-                self.winnings = self.board[self.level]
+                # If the player has reached a safe level, register current winnings
+                # Safe levels guarantee a minimum prize even if a future answer is wrong
+                if self.level in self.safe_levels:
+                    self.winnings = self.board[self.level]
 
-            # If the player has completed all levels, end the game
-            if self.level >= len(self.board):
-                ended = True
-            else:
-                # Otherwise, ask the player if they want to continue or walk away
-                carry_on = input("Do you want to carry on? Y/N").lower()
-                if carry_on != 'y':
-                    print("You have decided to end your game!")
+                # If the player has completed all levels, end the game
+                if self.level >= len(self.board):
                     ended = True
+                else:
+                    # Otherwise, ask the player if they want to continue or walk away
+                    carry_on = input("Do you want to carry on? Y/N").lower()
+                    if carry_on != 'y':
+                        print("You have decided to end your game!")
+                        ended = True
 
-        else:
-            # Player answered incorrectly → game ends immediately
-            # Winnings remain as the last safe level achieved
-            ended = True
+            else:
+                # Player answered incorrectly → game ends immediately
+                # Winnings remain as the last safe level achieved
+                ended = True
 
-    # After exiting the loop, the game has ended
-    print("That's the end of the game!")
-    print("You walk away with a check for...")
+        # After exiting the loop, the game has ended
+        print("That's the end of the game!")
+        print("You walk away with a check for...")
 
-    # Display the prize amount based on the last recorded safe winnings
-    print(f"£{self.winnings}")
+        # Display the prize amount based on the last recorded safe winnings
+        print(f"£{self.winnings}")
