@@ -106,7 +106,7 @@ class GameBoard:
         result = self.play_round()
         if result == True:
             self.level += 1
-            if 
+            if self.level >= 
         else:
             if self.level > 11:
                 self.level = 11
