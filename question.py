@@ -34,7 +34,6 @@ class Question:
                 wrong_ans.append(key)
         return wrong_ans
 
-
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
