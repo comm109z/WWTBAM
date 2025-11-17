@@ -17,9 +17,10 @@ class Question:
         answers = question_dict['answers']
         self.answers = {}
         self.answers['a'] = { "text": answers["correct"], "correct": True  } 
-        self.answers['a'] = { "text": answers["wrong"][0], "correct": False  } 
-        self.answers['a'] = { "text": answers["wrong"][1], "correct": False  } 
-        self.answers['a'] = { "text": answers["wrong"][2], "correct": False  } 
+        self.answers['b'] = { "text": answers["wrong"][0], "correct": False  } 
+        self.answers['c'] = { "text": answers["wrong"][1], "correct": False  } 
+        self.answers['d'] = { "text": answers["wrong"][2], "correct": False  } 
+        self.answers
         self.fiftyfifty_used = False
     
     def __str__(self):
