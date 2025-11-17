@@ -138,15 +138,6 @@ class GameBoard:
                 # Player answered incorrectly → game ends immediately
                 ended = True
 
-                # Determine the fallback guaranteed prize level
-                # Level 11 typically corresponds to £32,000, level 5 to £1,000
-                if self.level > 11:
-                    self.level = 11   # Player reached the second safety net
-                elif self.level > 5:
-                    self.level = 5    # Player reached only the first safety net
-                else:
-                    self.level = 0    # Player did not reach any guaranteed level
-
         # After exiting the loop, the game has ended
         print("That's the end of the game!")
         print("You walk away with a check for...")
