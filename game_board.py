@@ -107,7 +107,8 @@ class GameBoard:
         if result == True:
             self.level += 1
         else:
-            if self.level 
+            if self.level > 11:
+                self.level
             
 
 
