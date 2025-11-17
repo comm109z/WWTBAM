@@ -57,7 +57,10 @@ class Question:
         wrong_ans.pop(random.randint(0,2)) 
 
         for item in wrong_ans:
-            if item = "a": self.a["text"] =""
+            if item = "a": self.a["text"] = ""
+            if item = "b": self.a["text"] = ""
+            if item = "c": self.a["text"] = ""
+            if item = "d": self.a["text"] = ""
 
         random.shuffle(wrong_ans)
 
