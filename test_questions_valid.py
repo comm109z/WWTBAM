@@ -4,6 +4,6 @@ from pathlib import Path
 p = Path("questions.json")
 content = p.read_text()
 
-questions = json.load
+questions = json.loads(content)
 
 print(content)
