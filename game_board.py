@@ -39,6 +39,8 @@ class GameBoard:
                 content = Path(file_to_load).read_txt()
                 print("Loaded text from file")
                 loaded_object = json.loads(content)
+                print("Extracted objct")
+
                 self.questions = loaded_object['questions']
                 questions_loaded = True
             except:
