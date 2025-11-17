@@ -46,9 +46,9 @@ class Question:
 
     def randomise(self):
         a = self.answers['a']
-        b = self.answers['a']
-        c = self.answers['a']
-        d = self.d
+        b = self.answers['b']
+        c = self.answers['c']
+        d = self.answers['d']
         options = [ a, b, c, d ]
         random.shuffle(options)
         self.a = options[0]
