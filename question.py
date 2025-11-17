@@ -45,7 +45,8 @@ class Question:
 
     def fiftyfifty(self):
 
-        if self.fiftyfifty_used = True
+        if self.fiftyfifty_used = True:
+            return False
 
         # get list of wrong options
         wrong_ans = [  ]
@@ -69,4 +70,5 @@ class Question:
             elif item == "d": self.d["text"] = ""
 
         self.fiftyfifty_used = True
+        
             
