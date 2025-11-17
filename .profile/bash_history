@@ -5,3 +5,4 @@ conda activate base
 pytest
 python test_questions_valid.py 
 pytest
+python -m pytest
