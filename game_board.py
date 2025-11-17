@@ -53,4 +53,5 @@ class GameBoard:
                 file_to_load = input("Enter the question file: ").strip()
 
     def get_next_question(self):
+        poss_questions = []
         
