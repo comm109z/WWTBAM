@@ -20,3 +20,4 @@ class Question:
     
     def randomise(self):
         options = [ self.a, self.b, self.c, self.d ]
+        options
