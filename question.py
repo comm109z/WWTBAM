@@ -76,7 +76,9 @@ class Question:
         if user_ans == "a":
             if self.a['text'] == "":
                 return "invalid"
-            if self.a["correct"]
+            elif self.a["correct"]:
+                return "correct"
+            
             return True
         if user_ans == "b" and self.a["correct"]:
             return True
