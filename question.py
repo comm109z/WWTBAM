@@ -45,7 +45,7 @@ class Question:
 
     def fiftyfifty(self):
 
-        if self.fiftyfifty_used = True:
+        if self.fiftyfifty_used == True:
             return False
 
         # get list of wrong options
