@@ -88,6 +88,7 @@ class GameBoard:
 
             # If the user entered a valid answer choice (A, B, C, or D)
             elif self.question.check_ans(user_ans) != "invalid":
+                print("You are playing for ")
                 print("Final answer?... (Y/N)")
                 final_ans = input("> ")
 
