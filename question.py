@@ -51,10 +51,10 @@ class Question:
         d = self.answers['d']
         options = [ a, b, c, d ]
         random.shuffle(options)
-        self.a = options[0]
-        self.b = options[1]
-        self.c = options[2]
-        self.d = options[3]
+        self.answers['a'] = options[0]
+        self.answers['a'] = options[1]
+        self.answers['a'] = options[2]
+        self.answers['a'] = options[3]
     
 
     def fiftyfifty(self):
