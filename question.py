@@ -26,7 +26,7 @@ class Question:
     
     def get_correct(self):
         for key in [ "a","b","c","d" ]:
-            if self.answers
+            if self.answers[key][]
 
     def __str__(self):
         mystr = ""
