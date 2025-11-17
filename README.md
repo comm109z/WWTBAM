@@ -8,6 +8,6 @@ AIM - Develop a version of the game using:
 
 ### Define Class Structure
 
-`GameBoard
+`GameBoard` Class
 
 
