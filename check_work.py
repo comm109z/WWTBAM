@@ -26,4 +26,4 @@ print(len(board.questions))
 # board.get_user_name()
 
 board.load_questions()
-print(board)
+print(len(board.questions))
