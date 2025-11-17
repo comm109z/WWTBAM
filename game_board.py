@@ -45,7 +45,7 @@ class GameBoard:
                 print("Extracted object")
                 questions_json = loaded_object['questions']
                 for item in questions_json:
-                    self.questions.append( Question() )
+                    self.questions.append( Question(item) )
                 questions_loaded = True
             except:
                 print("Could not load questions!")
