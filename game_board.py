@@ -10,4 +10,5 @@ class GameBoard:
     def __str__(self):
         mystr = f"Player name {self.user}\n"
         mystr += "\n"
-        for item in self.board
+        for item in self.board:
+            if 
