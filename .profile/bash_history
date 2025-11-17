@@ -4,3 +4,4 @@ conda activate base
 /workspaces/Workshop-7b/.profile/auto-commit-all.sh -h
 pytest
 python test_questions_valid.py 
+pytest
