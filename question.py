@@ -45,9 +45,9 @@ class Question:
         return mystr
 
     def randomise(self):
-        a = self.a
-        b = self.b
-        c = self.c
+        a = self.answers['a']
+        b = self.answers['a']
+        c = self.answers['a']
         d = self.d
         options = [ a, b, c, d ]
         random.shuffle(options)
