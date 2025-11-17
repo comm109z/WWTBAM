@@ -22,7 +22,8 @@ class Question:
     
     def __str__(self):
         mystr = ""
-        mystr += f"Q. {}"
+        mystr += f"Q. {self.text}"
+        
 
     def randomise(self):
         a = self.a
