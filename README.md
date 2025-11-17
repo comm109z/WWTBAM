@@ -35,6 +35,7 @@ initialise it from the options, correct ans and three wrong ans
 - player level (money)
 - question_set
 - lifelines left (number of 50:50s)
+- player names
 
 
 
