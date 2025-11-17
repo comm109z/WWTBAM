@@ -117,7 +117,8 @@ class GameBoard:
                 self.level = 5
             else:
                 self.level = 0
-        if ended
+        if ended:
+            print("")
         
             
 
