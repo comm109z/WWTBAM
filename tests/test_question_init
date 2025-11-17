@@ -12,4 +12,4 @@ def test_question_class():
       }
     }
     my_question = Question(question_dict)
-    assert my_question.text = 
+    assert my_question.text = question_dict["question"]
