@@ -9,6 +9,7 @@ class GameBoard:
         self.board = [ 0, 100, 200, 300, 500, 1000, 2000, 4000, 8000,
                        16000, 32000, 64000, 125000, 250000, 500000, 1000000 ] # money levels
         self.safe_levels = [ 5, 11 ] 
+        self.winnings = 0
         self.level = 0 # index of round in the board
         self.questions = []
         self.n_lifelines = 3
