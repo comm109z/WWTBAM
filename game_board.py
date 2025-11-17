@@ -75,7 +75,10 @@ class GameBoard:
                     self.final_answer == True
         print(f"You selected: {user_ans.upper()}")
         if self.question.check_ans(user_ans) == "correct":
-            print()
+            print("Correct!")
+            return True
+        else:
+            
 
 
 
