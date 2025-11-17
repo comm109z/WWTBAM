@@ -14,3 +14,4 @@ python -m pytest ./tests/*
 python -m pytest ./tests/test*
 python -m pytest 
 pytest
+python -m pytest
