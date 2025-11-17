@@ -2,6 +2,126 @@
   "questions": [
     {
       "difficulty": 100,
+      "question": "Which of these is a common topping for fish and chips?",
+      "answers": {
+        "correct": "Salt",
+        "wrong": ["Sugar", "Cinnamon", "Paprika"]
+      }
+    },
+    {
+      "difficulty": 200,
+      "question": "How many days are there in a leap year?",
+      "answers": {
+        "correct": "366",
+        "wrong": ["364", "365", "368"]
+      }
+    },
+    {
+      "difficulty": 300,
+      "question": "What kind of creature is a penguin?",
+      "answers": {
+        "correct": "Bird",
+        "wrong": ["Fish", "Reptile", "Amphibian"]
+      }
+    },
+    {
+      "difficulty": 500,
+      "question": "Which of these is a traditional British dessert?",
+      "answers": {
+        "correct": "Sticky Toffee Pudding",
+        "wrong": ["Crème Brûlée", "Tiramisu", "Baklava"]
+      }
+    },
+    {
+      "difficulty": 1000,
+      "question": "Which river flows through London?",
+      "answers": {
+        "correct": "The Thames",
+        "wrong": ["The Clyde", "The Mersey", "The Tyne"]
+      }
+    },
+    {
+      "difficulty": 2000,
+      "question": "In which sport would you perform a 'putt'?",
+      "answers": {
+        "correct": "Golf",
+        "wrong": ["Tennis", "Bowling", "Cricket"]
+      }
+    },
+    {
+      "difficulty": 4000,
+      "question": "Which gas makes up most of the Earth's atmosphere?",
+      "answers": {
+        "correct": "Nitrogen",
+        "wrong": ["Oxygen", "Carbon Dioxide", "Helium"]
+      }
+    },
+    {
+      "difficulty": 8000,
+      "question": "Which historical figure is known as the 'Maid of Orléans'?",
+      "answers": {
+        "correct": "Joan of Arc",
+        "wrong": ["Marie Antoinette", "Catherine de' Medici", "Eleanor of Aquitaine"]
+      }
+    },
+    {
+      "difficulty": 16000,
+      "question": "Which composer wrote the Four Seasons?",
+      "answers": {
+        "correct": "Vivaldi",
+        "wrong": ["Mozart", "Beethoven", "Bach"]
+      }
+    },
+    {
+      "difficulty": 32000,
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "answers": {
+        "correct": "Brazil",
+        "wrong": ["China", "UK", "Japan"]
+      }
+    },
+    {
+      "difficulty": 64000,
+      "question": "Which scientist is known for discovering penicillin?",
+      "answers": {
+        "correct": "Alexander Fleming",
+        "wrong": ["Louis Pasteur", "Joseph Lister", "Edward Jenner"]
+      }
+    },
+    {
+      "difficulty": 125000,
+      "question": "Which city is home to the Acropolis?",
+      "answers": {
+        "correct": "Athens",
+        "wrong": ["Rome", "Istanbul", "Alexandria"]
+      }
+    },
+    {
+      "difficulty": 250000,
+      "question": "Which metal is liquid at room temperature?",
+      "answers": {
+        "correct": "Mercury",
+        "wrong": ["Gallium", "Sodium", "Tin"]
+      }
+    },
+    {
+      "difficulty": 500000,
+      "question": "Which author wrote 'The Handmaid's Tale'?",
+      "answers": {
+        "correct": "Margaret Atwood",
+        "wrong": ["Ursula K. Le Guin", "Aldous Huxley", "Doris Lessing"]
+      }
+    },
+    {
+      "difficulty": 1000000,
+      "question": "Which ancient civilisation built the city of Machu Picchu?",
+      "answers": {
+        "correct": "The Inca",
+        "wrong": ["The Maya", "The Aztec", "The Olmec"]
+      }
+    },
+    {
+      "difficulty": 100,
       "question": "What does the 'U' in 'UK' stand for?",
       "answers": {
         "correct": "United",
