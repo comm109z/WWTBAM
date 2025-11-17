@@ -22,7 +22,7 @@ class Question:
     
     def __str__(self):
         mystr = ""
-        
+        mystr += f"Q. {}"
 
     def randomise(self):
         a = self.a
