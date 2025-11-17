@@ -57,7 +57,7 @@ class Question:
         # remove 1 / 3 
         wrong_ans.pop(random.randint(0,2)) 
 
-        # blank remaining 
+        # blank remaining 2 / 3
         for item in wrong_ans:
             if item = "a": self.a["text"] = ""
             elif item = "b": self.b["text"] = ""
