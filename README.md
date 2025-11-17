@@ -11,7 +11,12 @@ AIM - Develop a version of the game using:
 `Question` class
 
 #### Attributes
- 
+
+ - Option A
+ - Option B
+ - Option C
+ - Option D
+ - 
 
 ##### Methods
 
