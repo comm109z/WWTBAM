@@ -120,7 +120,7 @@ class GameBoard:
         if ended:
             print("Thats the end of the game!")
             print("You walk away with a check for...")
-            print(self.board)
+            print(f"£{self.board[self.level]"})
             
 
 
