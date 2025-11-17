@@ -43,7 +43,7 @@ class Question:
             mystr += f"{key.upper()}. {text} ({correct})\n"
         return mystr
     
-    def __str__(self):
+    def display_to_user(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
         for key in [ "a", "b", "c", "d" ]:
