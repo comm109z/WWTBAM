@@ -1,5 +1,5 @@
 class GameBoard:
-    def __init__(self):
+    def __init__(self, filename="questions.json"):
         self.user = None
         self.board = [ 0, 100, 200, 300, 500, 1000, 2000, 4000, 8000,
                        16000, 32000, 64000, 125000, 250000, 500000, 1000000 ] # money levels
