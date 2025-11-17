@@ -22,7 +22,7 @@ from game_board import GameBoard
 # print(f"b is ... {my_question.check_ans('d')}")
 
 board = GameBoard()
-print(len(board)
+print(len(board.questions))
 # board.get_user_name()
 
 board.load_questions()
