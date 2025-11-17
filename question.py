@@ -73,4 +73,4 @@ class Question:
         return True
     
     def check_ans(self, user_ans):
-        
+        if user_ans == "a" and 
