@@ -115,6 +115,8 @@ class GameBoard:
                 self.level = 5
             else:
                 self.level = 0
+            self.status = "ended"
+        
         
             
 
