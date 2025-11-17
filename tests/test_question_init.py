@@ -1,7 +1,8 @@
 from question import Question
 
 def test_question_class():
-    # create sample 
+    # create sample question data
+    # 
     question_dict = {
       "difficulty": 100,
       "question": "What colour is an emerald?",
