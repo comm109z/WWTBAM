@@ -38,7 +38,7 @@ class GameBoard:
             try:
                 content = Path(file_to_load).read_txt()
                 loaded_object = json.loads(content)
-                self.questions = 
+                self.questions = loaded_object['questions']
                 questions_loaded = True
             except:
                 print("Could not load questions!")
