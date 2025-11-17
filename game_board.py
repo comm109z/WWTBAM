@@ -8,3 +8,4 @@ class GameBoard:
         self.final_answer = False
 
     def __str__(self):
+        mystr
