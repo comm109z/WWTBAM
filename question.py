@@ -15,8 +15,8 @@ class Question:
         self.text = question_dict['question']
         self.difficulty = question_dict['difficulty']
         answers = question_dict['answers']
-        self.answers = 
-        self.a = { "text": answers["correct"], "correct": True  } 
+        self.answers = {}
+        self.answers['a' = { "text": answers["correct"], "correct": True  } 
         self.b = { "text": answers["wrong"][0], "correct": False  } 
         self.c = { "text": answers["wrong"][1], "correct": False  } 
         self.d = { "text": answers["wrong"][2], "correct": False  } 
