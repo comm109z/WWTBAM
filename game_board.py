@@ -62,4 +62,5 @@ class GameBoard:
 
     def play_round():
         self.question.display_to_user()
-        user_ans = input()
+        while self.
+        user_ans = input(Your answer: )
