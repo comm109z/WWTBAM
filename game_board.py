@@ -105,23 +105,22 @@ class GameBoard:
         print(self)
         ended = False
         while ended == False:
-        result = self.play_round()
-        if result == True:
-            self.level += 1
-            if self.level >= len(self.board):
-                ended = True
-        else:
-            ended = True
-            if self.level > 11:
-                self.level = 11
-            elif self.level > 5:
-                self.level = 5
+            result = self.play_round()
+            if result == True:
+                self.level += 1
+                if self.level >= len(self.board):
+                    ended = True
             else:
-                self.level = 0
-        if ended:
-            print("Thats the end of the game!")
-            print("You walk away with a check for...")
-            print(f"£{self.board[self.level]}")
+                ended = True
+                if self.level > 11:
+                    self.level = 11
+                elif self.level > 5:
+                    self.level = 5
+                else:
+                    self.level = 0
+        print("Thats the end of the game!")
+        print("You walk away with a check for...")
+        print(f"£{self.board[self.level]}")
         
 
 
