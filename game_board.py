@@ -71,7 +71,7 @@ class GameBoard:
             elif self.question(user_ans) != "invalid":
                 print("Final answer?... (Y/N)")
                 final_ans = input("> ")
-                if 
+                if final_ans.upper() == "Y":
 
 
 
