@@ -43,7 +43,7 @@ class Question:
     
 
     def fiftyfifty(self):
-        
+        # get list of wrong options
         wrong_ans = [  ]
         if self.a["correct"] == False:
             wrong_ans.append("a")
@@ -54,7 +54,7 @@ class Question:
         if self.a["correct"] == False:
             wrong_ans.append("d")
 
-        
+            
         random.shuffle(wrong_ans)
 
             
