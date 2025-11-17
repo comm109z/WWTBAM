@@ -3,3 +3,4 @@ class GameBoard:
         self.user = None
         self.board = [] # money levels
         self.level = 0 # index of round in the board
+        
