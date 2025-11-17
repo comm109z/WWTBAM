@@ -30,9 +30,10 @@ class Question:
                 return key
 
     def get_wrong(self):
+        wrong_ans = []
         for key in [ "a","b","c","d" ]:
             if self.answers[key]["correct"] == False:
-                return key
+                wrong_ans
 
 
     def __str__(self):
