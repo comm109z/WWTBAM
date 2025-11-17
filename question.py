@@ -54,7 +54,7 @@ class Question:
         if self.a["correct"] == False:
             wrong_ans.append("d")
 
-        wrong_ans.pop(random.)    
+        wrong_ans.pop(random.randint(0,2))    
         random.shuffle(wrong_ans)
 
             
