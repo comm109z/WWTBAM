@@ -41,10 +41,6 @@ class Question:
         self.c = options[2]
         self.d = options[3]
     
-    def get_correct(self):
-        for item in [self.a, self.b, self.c, self.d]:
-            if item['correct']:
-                return item
 
     def fiftyfifty(self):
         
