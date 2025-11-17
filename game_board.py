@@ -73,6 +73,7 @@ class GameBoard:
                 final_ans = input("> ")
                 if final_ans..lower() == "y":
                     self.final_answer == True
+        
 
 
 
