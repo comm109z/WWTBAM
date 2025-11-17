@@ -27,6 +27,7 @@ class Question:
         mystr += f"B. {self.b['text']} ({self.b['correct']})\n"
         mystr += f"D. {self.c['text']} ({self.c['correct']})\n"
         mystr += f"D. {self.d['text']} ({self.d['correct']})\n"
+        return mystr
 
     def randomise(self):
         a = self.a
