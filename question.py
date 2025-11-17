@@ -10,7 +10,7 @@ class Question:
     # },
 
     def __init__(self, question_dict):
-        
+        self.text = 
         answers = question_dict['answers']
         self.a = { "text": answers["correct"], "correct": True  } 
         self.b = { "text": answers["wrong"][0], "correct": False  } 
