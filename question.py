@@ -21,6 +21,7 @@ class Question:
     def randomise(self):
         a = self.a
         b = self.b
-        
+        c = self.c
+        d = 
         options = [ self.a, self.b, self.c, self.d ]
         options.shuffle()
