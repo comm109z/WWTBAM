@@ -138,6 +138,7 @@ class GameBoard:
                     carry_on = input("Do you want to carry on? Y/N").lower()
                     if carry_on != 'y':
                         print("You have decided to end your game!")
+                        ended = True
 
             else:
                 # Player answered incorrectly → game ends immediately
