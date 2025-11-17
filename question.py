@@ -84,8 +84,8 @@ class Question:
                 return "invalid"
             else:
                 return "wrong"
-    else:
-    
+        else:
+            return "invalid"
         if user_ans == "a":
             # check answer not eliminated
             if self.a['text'] == "":
