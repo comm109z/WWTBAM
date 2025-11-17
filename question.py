@@ -29,6 +29,12 @@ class Question:
             if self.answers[key]["correct"] == True
                 return key
 
+    def get_wrong(self):
+        for key in [ "a","b","c","d" ]:
+            if self.answers[key]["correct"] == True
+                return key
+
+
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
