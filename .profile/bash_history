@@ -17,3 +17,5 @@ pytest
 python -m pytest
 python
 python check_work.py 
+conda activate base
+/opt/conda/bin/python
