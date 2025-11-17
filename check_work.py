@@ -1,3 +1,5 @@
+from question import Question
+
 question_dict = {  "difficulty": 100,
                         "question": "What colour is an emerald?",
                         "answers": {
