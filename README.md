@@ -10,5 +10,6 @@ AIM - Develop a version of the game using:
 
 `GameBoard` Class
 
-- attributes
-- methos
+#### Attributes
+
+##### Method
