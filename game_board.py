@@ -66,9 +66,11 @@ class GameBoard:
 
         # Display the question and answer choices to the user
         self.question.display_to_user()
+
+        # set the answer variables
         user_ans = ""
         self.final_answer = False
-        
+
         # Continue looping until the player locks in a final answer
         while self.final_answer == False:
             print("Enter an option A B C or D or L to use a lifeline:")
