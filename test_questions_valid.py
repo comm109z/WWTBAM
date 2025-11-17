@@ -6,4 +6,4 @@ content = p.read_text()
 
 questions = json.loads(content)
 
-print(content)
+print(questions)
