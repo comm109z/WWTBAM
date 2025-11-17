@@ -39,7 +39,7 @@ class Question:
         mystr = ""
         mystr += f"Q. {self.text}\n"
         for key in [ "a","b","c","d" ]:
-            
+            mystr += f"{key.upper()}. {self.a['text']} ({self.a['correct']})\n"
         
         mystr += f"B. {self.b['text']} ({self.b['correct']})\n"
         mystr += f"C. {self.c['text']} ({self.c['correct']})\n"
