@@ -44,6 +44,9 @@ class Question:
     
 
     def fiftyfifty(self):
+
+        if self.fiftyfifty_used = True
+
         # get list of wrong options
         wrong_ans = [  ]
         if self.a["correct"] == False:
