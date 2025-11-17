@@ -72,4 +72,5 @@ class Question:
         self.fiftyfifty_used = True
         return True
     
-    def check_ans
+    def check_ans(self, user_ans):
+        
