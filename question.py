@@ -41,7 +41,7 @@ class Question:
         self.c = options[2]
         self.d = options[3]
     
-    get_correct():
+    def get_correct():
 
     def fiftyfifty(self):
         
