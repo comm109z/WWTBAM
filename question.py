@@ -19,6 +19,6 @@ class Question:
         self.d = { "text": answers["wrong"][2], "correct": False  } 
     
     def randomise(self):
+        a = 
         options = [ self.a, self.b, self.c, self.d ]
         options.shuffle()
-        
