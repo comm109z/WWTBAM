@@ -41,6 +41,8 @@ class Question:
         self.c = options[2]
         self.d = options[3]
     
+    get_correcty
+
     def fiftyfifty(self):
         
         options = [ a, b, c, d ]
