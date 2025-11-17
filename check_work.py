@@ -8,3 +8,4 @@ question_dict = {  "difficulty": 100,
     
 # initialise Question object with this data
 my_question = Question(question_dict)
+print(my_question)
