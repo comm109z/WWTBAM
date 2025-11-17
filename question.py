@@ -74,9 +74,10 @@ class Question:
     
     def check_ans(self, user_ans):
         if user_ans == "a":
-            # check 
+            # check answer not eliminated
             if self.a['text'] == "":
                 return "invalid"
+            # check if correct
             elif self.a["correct"]:
                 return "correct"
             else:
