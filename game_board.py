@@ -13,3 +13,5 @@ class GameBoard:
         for idx in range(len(self.board)):
             if idx == self.level:
                 row_str = " * "
+            else:
+                
