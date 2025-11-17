@@ -60,45 +60,45 @@ class GameBoard:
                 poss_questions.append(item)
         self.question = random.choice(poss_questions)
 
-def play_round(self):
-    # Retrieve the next question for this round
-    self.get_next_question()
+    def play_round(self):
+        # Retrieve the next question for this round
+        self.get_next_question()
 
-    # Display the question and answer choices to the user
-    self.question.display_to_user()
+        # Display the question and answer choices to the user
+        self.question.display_to_user()
 
-    # Continue looping until the player locks in a final answer
-    while self.final_answer == False:
-        print("Enter an option A B C or D or L to use a lifeline:")
-        user_ans = input("> ").lower()  # Read input and convert to lowercase
+        # Continue looping until the player locks in a final answer
+        while self.final_answer == False:
+            print("Enter an option A B C or D or L to use a lifeline:")
+            user_ans = input("> ").lower()  # Read input and convert to lowercase
 
-        # If the user chooses a lifeline (L) and still has lifelines available
-        if user_ans == "l" and self.n_lifelines > 0:
-            result = self.question.fiftyfifty()  # Apply 50:50 lifeline, removing two incorrect options
+            # If the user chooses a lifeline (L) and still has lifelines available
+            if user_ans == "l" and self.n_lifelines > 0:
+                result = self.question.fiftyfifty()  # Apply 50:50 lifeline, removing two incorrect options
 
-            # If 50:50 was successfully applied, redisplay the updated options
-            if result == True:
-                self.question.display_to_user()
+                # If 50:50 was successfully applied, redisplay the updated options
+                if result == True:
+                    self.question.display_to_user()
 
-        # If the user entered a valid answer choice (A, B, C, or D)
-        elif self.question.check_ans(user_ans) != "invalid":
-            print("Final answer?... (Y/N)")
-            final_ans = input("> ")
+            # If the user entered a valid answer choice (A, B, C, or D)
+            elif self.question.check_ans(user_ans) != "invalid":
+                print("Final answer?... (Y/N)")
+                final_ans = input("> ")
 
-            # If the user confirms their choice, exit the loop
-            if final_ans.lower() == "y":
-                self.final_answer = True
+                # If the user confirms their choice, exit the loop
+                if final_ans.lower() == "y":
+                    self.final_answer = True
 
-    # When user locks in, show what answer they chose
-    print(f"You selected: {user_ans.upper()}")
+        # When user locks in, show what answer they chose
+        print(f"You selected: {user_ans.upper()}")
 
-    # Evaluate the final answer and report the result
-    if self.question.check_ans(user_ans) == "correct":
-        print("Correct!")
-        return True
-    else:
-        print("Incorrect!")
-        return False
+        # Evaluate the final answer and report the result
+        if self.question.check_ans(user_ans) == "correct":
+            print("Correct!")
+            return True
+        else:
+            print("Incorrect!")
+            return False
 
 
 
