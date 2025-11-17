@@ -70,7 +70,7 @@ class Question:
 
         # blank remaining 2 / 3
         for item in wrong_ans:
-            
+            self.answers['item']['text'] = ""
 
         self.fiftyfifty_used = True
         return True
