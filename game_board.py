@@ -103,7 +103,7 @@ class GameBoard:
     def play_game(self):
         self.get_user_name()
         print(self)
-        
+        result = self.play_round()
 
 
 
