@@ -12,7 +12,7 @@ class Question:
     def __init__(self, question_dict):
         answers = question_dict['answers']
         self.a = { "text": answers["correct"], "correct": True  } 
-        self.b = { "text": answers["correct"], "correct": True  } 
-        self.c = { "text": answers["correct"], "correct": True  } 
-        self.a = { "text": answers["correct"], "correct": True  } 
+        self.b = { "text": answers["wrong"][0], "correct": True  } 
+        self.c = { "text": answers["wrong"], "correct": True  } 
+        self.d = { "text": answers["wrong"], "correct": True  } 
         
