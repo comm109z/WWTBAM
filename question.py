@@ -59,9 +59,9 @@ class Question:
 
         # blank remaining 2 / 3
         for item in wrong_ans:
-            if item = "a": self.a["text"] = ""
-            elif item = "b": self.b["text"] = ""
-            elif item = "c": self.c["text"] = ""
-            elif item = "d": self.d["text"] = ""
+            if item == "a": self.a["text"] = ""
+            elif item == "b": self.b["text"] = ""
+            elif item == "c": self.c["text"] = ""
+            elif item == "d": self.d["text"] = ""
 
             
