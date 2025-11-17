@@ -43,7 +43,8 @@ class Question:
     
 
     def fiftyfifty(self):
-        wrong_ans = [ 0, 1, 2 ]
-        random.shuffle(wrong_ans)
+        wrong_ans = [ 0, 1, 2, 3 ]
         
+        random.shuffle(wrong_ans)
+
             
