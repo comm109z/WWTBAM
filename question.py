@@ -73,4 +73,7 @@ class Question:
         return True
     
     def check_ans(self, user_ans):
-        if user_ans == "a" and 
+        if user_ans == "a" and self.a["correct"]:
+            return True
+        if user_ans == "a" and self.a["correct"]:
+            return True
