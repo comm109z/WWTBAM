@@ -80,7 +80,8 @@ class Question:
             return "correct"
         wrong_ans = self.get_wrong()
         if user_ans in wrong_ans:
-            if self.answers[user_ans][]
+            if self.answers[user_ans]['text'] == "":
+                return "invalid"
         if user_ans == "a":
             # check answer not eliminated
             if self.a['text'] == "":
