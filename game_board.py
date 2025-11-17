@@ -100,28 +100,48 @@ class GameBoard:
             print("Incorrect!")
             return False
 
-    def play_game(self):
-        self.get_user_name()
-        print(self)
-        ended = False
-        while ended == False:
-            result = self.play_round()
-            if result == True:
-                self.level += 1
-                if self.level >= len(self.board):
-                    ended = True
-            else:
-                ended = True
-                if self.level > 11:
-                    self.level = 11
-                elif self.level > 5:
-                    self.level = 5
+        def play_game(self):
+            # Ask the player for their name before starting the game
+            self.get_user_name()
+
+            # Print the game state or welcome message (depends on __str__)
+            print(self)
+
+            ended = False  # Controls the main game loop
+
+            # Keep playing rounds until the game ends
+            while ended == False:
+                result = self.play_round()  # Play one question round and get True/False
+
+                if result == True:
+                    # Player answered correctly → move up one level
+                    self.level += 1
+
+                    # If the player is past the final level, end the game
+                    if self.level >= len(self.board):
+                        ended = True
+
                 else:
-                    self.level = 0
-        print("Thats the end of the game!")
-        print("You walk away with a check for...")
-        print(f"£{self.board[self.level]}")
-        
+                    # Player answered incorrectly → game ends immediately
+                    ended = True
+
+                    # Determine the fallback guaranteed prize level
+                    # Level 11 typically corresponds to £32,000, level 5 to £1,000
+                    if self.level > 11:
+                        self.level = 11   # Player reached the second safety net
+                    elif self.level > 5:
+                        self.level = 5    # Player reached only the first safety net
+                    else:
+                        self.level = 0    # Player did not reach any guaranteed level
+
+            # After exiting the loop, the game has ended
+            print("That's the end of the game!")
+            print("You walk away with a check for...")
+
+            # Display the prize amount based on the final level
+            print(f"£{self.board[self.level]}")
+
+                
 
 
 
