@@ -75,5 +75,9 @@ class Question:
     def check_ans(self, user_ans):
         if user_ans == "a" and self.a["correct"]:
             return True
-        if user_ans == "a" and self.a["correct"]:
+        if user_ans == "b" and self.a["correct"]:
+            return True
+        if user_ans == "c" and self.a["correct"]:
+            return True
+        if user_ans == "d" and self.a["correct"]:
             return True
