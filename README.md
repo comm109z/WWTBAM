@@ -17,7 +17,7 @@ AIM - Develop a version of the game using:
  - Option C
  - Option D
 
-
+Each option is dict with text and 
 
 ##### Methods
 
