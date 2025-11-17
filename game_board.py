@@ -80,6 +80,7 @@ class GameBoard:
             if user_ans == "l" and self.n_lifelines > 0:
                 result = self.question.fiftyfifty()  # Apply 50:50 lifeline, removing two incorrect options
 
+
                 # If 50:50 was successfully applied, redisplay the updated options
                 if result == True:
                     self.question.display_to_user()
