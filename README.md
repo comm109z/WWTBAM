@@ -20,5 +20,12 @@ AIM - Develop a version of the game using:
 
 #### Attributes
 
-##### Method
+##### Methods
+
+
+`Game` Class
+
+#### Attributes
+
+##### Methods
 
