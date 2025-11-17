@@ -33,7 +33,8 @@ class Question:
         wrong_ans = []
         for key in [ "a","b","c","d" ]:
             if self.answers[key]["correct"] == False:
-                wrong_ans
+                wrong_ans.append(key)
+        return wrong_ans
 
 
     def __str__(self):
