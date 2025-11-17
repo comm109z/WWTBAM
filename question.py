@@ -43,7 +43,8 @@ class Question:
     
     def get_correct(self):
         for item in [self.a, self.b, self.c, self.d]:
-            if item['correct']
+            if item['correct']:
+                return item
 
     def fiftyfifty(self):
         
