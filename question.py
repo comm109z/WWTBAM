@@ -24,6 +24,8 @@ class Question:
         self.answers['wrong'] = self.get_wrong()
         self.fiftyfifty_used = False
     
+    def 
+
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
