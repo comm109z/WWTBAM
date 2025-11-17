@@ -144,7 +144,7 @@ class GameBoard:
         print("You walk away with a check for...")
 
         # Display the prize amount based on the final level
-        print(f"£{self.board[self.level]}")
+        print(f"£{self.winnings}")
 
             
 
