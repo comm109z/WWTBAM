@@ -42,10 +42,7 @@ class Question:
         self.d = options[3]
     
     def fiftyfifty(self):
-        a = self.a
-        b = self.b
-        c = self.c
-        d = self.d
+        
         options = [ a, b, c, d ]
         random.shuffle(options)
         while len(options) > 2:
