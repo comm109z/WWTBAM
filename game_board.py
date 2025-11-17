@@ -64,6 +64,6 @@ class GameBoard:
 
         self.question.display_to_user()
         while self.final_answer == False:
-            print("Enter and option a-d or ")
+            print("Enter and option 'a'-'d' or l to use a lifeline")
             user_ans = input("Your answer: ")
 
