@@ -42,7 +42,7 @@ class Question:
         self.d = options[3]
     
     def get_correct(self):
-        if 
+        for item in []
 
     def fiftyfifty(self):
         
