@@ -27,9 +27,9 @@ class GameBoard:
         return mystr
     
     def get_user_name(self):
-        self.user_name = ""
-        while len(self.user_name) < 3:
-            self.user_name = input("Enter your name: ").title().strip()
+        self.user = ""
+        while len(self.user) < 3:
+            self.user = input("Enter your name: ").title().strip()
 
     def load_questions(self, filename="questions.json"):
         questions_loaded = False
