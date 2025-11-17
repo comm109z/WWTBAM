@@ -93,7 +93,7 @@ class Question:
             # otherwise must be wrong
             else:
                 return "wrong"
-        if user_ans == "c":
+        elif user_ans == "c":
             # check answer not eliminated
             if self.c['text'] == "":
                 return "invalid"
@@ -108,7 +108,7 @@ class Question:
             if self.d['text'] == "":
                 return "invalid"
             # check if correct
-            elif self.a["correct"]:
+            elif self.d["correct"]:
                 return "correct"
             # otherwise must be wrong
             else:
