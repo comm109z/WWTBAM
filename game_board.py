@@ -7,4 +7,4 @@ class GameBoard:
         self.n_lifelines = 3
         self.final_answer = False
 
-    
+    def __str__
