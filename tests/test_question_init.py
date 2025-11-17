@@ -7,8 +7,8 @@ def test_question_class():
                         "question": "What colour is an emerald?",
                         "answers": {
                                       "correct": "Green",
-                                      "wrong": ["Blue", "Red", "Yellow"] }
-                    } 
+                                      "wrong": ["Blue", "Red", "Yellow"] }  } 
+    
     # initialise Question object with this data
     my_question = Question(question_dict)
     
