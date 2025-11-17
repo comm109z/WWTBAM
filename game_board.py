@@ -1,7 +1,8 @@
 class GameBoard:
     def __init__(self):
         self.user = None
-        self.board = [ 0, 100, 200, 300, 500, 1000, 2000, 4000, 8000,] # money levels
+        self.board = [ 0, 100, 200, 300, 500, 1000, 2000, 4000, 8000,
+                       16000, 32000, 64000, 125000, 250000, 500] # money levels
         self.level = 0 # index of round in the board
         self.questions = []
         self.n_lifelines = 3
