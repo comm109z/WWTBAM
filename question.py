@@ -24,9 +24,9 @@ class Question:
         mystr = ""
         mystr += f"Q. {self.text}\n"
         mystr += f"A. {self.a}\n"
-        mystr += f"A. {self.a}\n"
-        mystr += f"A. {self.a}\n"
-        mystr += f"A. {self.a}\n"
+        mystr += f"B. {self.a}\n"
+        mystr += f"D. {self.a}\n"
+        mystr += f"D. {self.a}\n"
 
     def randomise(self):
         a = self.a
