@@ -80,5 +80,6 @@ class Question:
             # check if correct
             elif self.a["correct"]:
                 return "correct"
+            # otherwise must be wrong
             else:
                 return "wrong"
