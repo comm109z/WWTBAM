@@ -32,5 +32,5 @@ class GameBoard:
 
     def load_questions(self, filename="questions.json"):
         try:
-            self.questions = 
+            self.questions = json.loads(content)
 
