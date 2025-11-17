@@ -1,3 +1,6 @@
 import json
 from pathlib import Path
 import question
+
+def test_question_class():
+    
