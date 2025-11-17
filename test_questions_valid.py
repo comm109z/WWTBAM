@@ -2,11 +2,14 @@ import json
 from pathlib import Path
 
 p = Path("questions.json")
-content = p.read_text()
+
 
 load_successful = False
 
 try:
+    content = p.read_text()
     questions = json.loads(content)
+except:
+    
 
 print(questions)
