@@ -32,6 +32,7 @@ class GameBoard:
 
     def load_questions(self, filename="questions.json"):
         
+        while 
         try:
             file_to_load = filename
             content = Path(filename).read_txt()
