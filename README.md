@@ -41,5 +41,5 @@ initialise it from the options, correct ans and three wrong ans
 
 ##### Methods
 
-- initialisation(
+- initialisation(question_bank_file)
 - play_round()
