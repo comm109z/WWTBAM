@@ -79,7 +79,8 @@ class Question:
         if user_ans == self.get_correct():
             return "correct"
         wrong_ans = self.get_wrong()
-        if 
+        if user_ans in wrong_ans:
+            
         if user_ans == "a":
             # check answer not eliminated
             if self.a['text'] == "":
