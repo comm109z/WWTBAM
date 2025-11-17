@@ -69,6 +69,8 @@ class GameBoard:
             if user_ans == "L" and self.n_lifeline > 0:
                 self.question.fiftyfifty()
             elif self.question(user_ans) != "invalid":
-                print("Final answer?...")
+                print("Final answer?... (Y/N)")
+                user_ans = input("> ")
+
 
 
