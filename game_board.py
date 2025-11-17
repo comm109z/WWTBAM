@@ -125,8 +125,8 @@ class GameBoard:
             if result == True:
                 # Player answered correctly → move up one level
                 self.level += 1
-                
-                # register current winnings
+
+                # register current winnings if reached a safe level
                 if self.level in self.safe_levels:
                     self.winnings = self.board[self.level]
 
