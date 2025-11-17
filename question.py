@@ -41,3 +41,4 @@ class Question:
         self.c = options[2]
         self.d = options[3]
     
+    def 
