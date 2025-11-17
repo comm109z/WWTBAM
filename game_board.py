@@ -78,7 +78,8 @@ class GameBoard:
             print("Correct!")
             return True
         else:
-            
+            print("Incorrect!")
+            return True
 
 
 
