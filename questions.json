@@ -2,6 +2,126 @@
   "questions": [
     {
       "difficulty": 100,
+      "question": "What colour is an emerald?",
+      "answers": {
+        "correct": "Green",
+        "wrong": ["Blue", "Red", "Yellow"]
+      }
+    },
+    {
+      "difficulty": 200,
+      "question": "Which of these is a common household pet?",
+      "answers": {
+        "correct": "Cat",
+        "wrong": ["Hawk", "Shark", "Lizardfish"]
+      }
+    },
+    {
+      "difficulty": 300,
+      "question": "What is the main ingredient in a traditional omelette?",
+      "answers": {
+        "correct": "Eggs",
+        "wrong": ["Bread", "Rice", "Milk"]
+      }
+    },
+    {
+      "difficulty": 500,
+      "question": "Which of these items would you typically wear on your feet?",
+      "answers": {
+        "correct": "Shoes",
+        "wrong": ["Gloves", "Hat", "Scarf"]
+      }
+    },
+    {
+      "difficulty": 1000,
+      "question": "What is the capital of Wales?",
+      "answers": {
+        "correct": "Cardiff",
+        "wrong": ["Swansea", "Newport", "Bangor"]
+      }
+    },
+    {
+      "difficulty": 2000,
+      "question": "Which part of the plant conducts photosynthesis?",
+      "answers": {
+        "correct": "Leaf",
+        "wrong": ["Root", "Stem", "Flower"]
+      }
+    },
+    {
+      "difficulty": 4000,
+      "question": "Which ancient civilisation built the pyramids of Giza?",
+      "answers": {
+        "correct": "The Egyptians",
+        "wrong": ["The Romans", "The Babylonians", "The Persians"]
+      }
+    },
+    {
+      "difficulty": 8000,
+      "question": "What is the largest internal organ in the human body?",
+      "answers": {
+        "correct": "Liver",
+        "wrong": ["Heart", "Lung", "Kidney"]
+      }
+    },
+    {
+      "difficulty": 16000,
+      "question": "Which city is known as the 'Big Apple'?",
+      "answers": {
+        "correct": "New York",
+        "wrong": ["Chicago", "Los Angeles", "Boston"]
+      }
+    },
+    {
+      "difficulty": 32000,
+      "question": "Who painted the famous work 'The Persistence of Memory'?",
+      "answers": {
+        "correct": "Salvador Dalí",
+        "wrong": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh"]
+      }
+    },
+    {
+      "difficulty": 64000,
+      "question": "What is the longest river in the world by most measurements?",
+      "answers": {
+        "correct": "The Nile",
+        "wrong": ["Amazon", "Yangtze", "Mississippi"]
+      }
+    },
+    {
+      "difficulty": 125000,
+      "question": "Which element has the atomic number 1?",
+      "answers": {
+        "correct": "Hydrogen",
+        "wrong": ["Helium", "Lithium", "Oxygen"]
+      }
+    },
+    {
+      "difficulty": 250000,
+      "question": "Which British author created the character Sherlock Holmes?",
+      "answers": {
+        "correct": "Arthur Conan Doyle",
+        "wrong": ["Agatha Christie", "Bram Stoker", "H. G. Wells"]
+      }
+    },
+    {
+      "difficulty": 500000,
+      "question": "Which country is home to the ancient city of Petra?",
+      "answers": {
+        "correct": "Jordan",
+        "wrong": ["Egypt", "Greece", "Turkey"]
+      }
+    },
+    {
+      "difficulty": 1000000,
+      "question": "Which physicist first proposed the theory of general relativity?",
+      "answers": {
+        "correct": "Albert Einstein",
+        "wrong": ["Niels Bohr", "Max Planck", "Erwin Schrödinger"]
+      }
+    },
+    {
+      "difficulty": 100,
       "question": "Which of these is a common topping for fish and chips?",
       "answers": {
         "correct": "Salt",
