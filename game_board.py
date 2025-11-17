@@ -56,4 +56,5 @@ class GameBoard:
         money_amount = self.board[self.level]
         poss_questions = []
         for item in self.questions:
-            if item['difficulty'] == self.board[self.level]
+            if item['difficulty'] == money_amount:
+                poss_questions.append()
