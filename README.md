@@ -22,6 +22,7 @@ Each option is dict with text and boolean correct/incorrect
 ##### Methods
 
 
+
 `GameBoard` Class
 
 #### Attributes
