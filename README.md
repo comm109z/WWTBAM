@@ -8,7 +8,13 @@ AIM - Develop a version of the game using:
 
 ### Define Class Structure
 
-`Question`
+`Question` class
+
+#### Attributes
+
+
+##### Methods
+
 
 `GameBoard` Class
 
