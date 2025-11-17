@@ -54,6 +54,7 @@ class Question:
         if self.a["correct"] == False:
             wrong_ans.append("d")
 
+        # remove one 
         wrong_ans.pop(random.randint(0,2)) 
 
         for item in wrong_ans:
