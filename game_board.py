@@ -61,7 +61,6 @@ class GameBoard:
         self.question = random.choice(poss_questions)
 
     def play_round():
-
         self.question.display_to_user()
         while self.final_answer == False:
             print("Enter and option A B C or D or L to use a lifeline:")
@@ -79,7 +78,7 @@ class GameBoard:
             return True
         else:
             print("Incorrect!")
-            return True
+            return False
 
 
 
