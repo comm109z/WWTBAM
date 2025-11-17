@@ -2,7 +2,7 @@ from question import Question
 
 def test_question_class():
     # create sample question data
-    # 
+    # matching json storage format
     question_dict = {
       "difficulty": 100,
       "question": "What colour is an emerald?",
