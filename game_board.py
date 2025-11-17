@@ -143,6 +143,7 @@ class GameBoard:
                     if carry_on != 'y':
                         print("You have decided to end your game!")
                         ended = True
+                        self.winnings = self.board[self.level]
 
             else:
                 # Player answered incorrectly → game ends immediately
