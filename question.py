@@ -10,5 +10,6 @@ class Question:
     # },
 
     def __init__(self, question_dict):
-        self.a = question_dict
+        answers = question_dict['answers']
+        self.a = 
         
