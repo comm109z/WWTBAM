@@ -1,4 +1,5 @@
 class GameBoard:
     def __init__(self):
         self.user = None
-        self.board = [] # 
+        self.board = [] # money levels
+        self.level = 
