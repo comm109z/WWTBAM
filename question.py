@@ -65,4 +65,5 @@ class Question:
             elif item == "c": self.c["text"] = ""
             elif item == "d": self.d["text"] = ""
 
+        self.fiftyfifty_used = True
             
