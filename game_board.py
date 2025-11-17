@@ -8,7 +8,7 @@ class GameBoard:
         self.user = None
         self.board = [ 0, 100, 200, 300, 500, 1000, 2000, 4000, 8000,
                        16000, 32000, 64000, 125000, 250000, 500000, 1000000 ] # money levels
-        self.safe_levels = [ 5, 11 ] 
+        self.winnings = [ 5, 11 ] 
         self.level = 0 # index of round in the board
         self.questions = []
         self.n_lifelines = 3
@@ -89,7 +89,7 @@ class GameBoard:
             # If the user entered a valid answer choice (A, B, C, or D)
             elif self.question.check_ans(user_ans) != "invalid":
                 print(f"You are playing for £{self.question.difficulty}")
-                print(f"If you are wriong you will walk away with £{winnings}")
+                print(f"If you are wriong you will walk away with £{self.winnings}")
                 print("Final answer?... (Y/N)")
                 final_ans = input("> ")
 
