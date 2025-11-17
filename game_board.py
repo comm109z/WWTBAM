@@ -68,13 +68,13 @@ class GameBoard:
             user_ans = input("> ").lower()
             if user_ans == "l" and self.n_lifeline > 0:
                 self.question.fiftyfifty()
-            elif self.question(user_ans) != "invalid":
+            elif self.question.check_ans(user_ans) != "invalid":
                 print("Final answer?... (Y/N)")
                 final_ans = input("> ")
                 if final_ans..lower() == "y":
                     self.final_answer == True
         print(f"You selected: {user_ans.upper()}")
-        if 
+        if self.question.check_ans(user_ans) 
 
 
 
