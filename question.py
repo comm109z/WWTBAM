@@ -43,6 +43,7 @@ class Question:
     
 
     def fiftyfifty(self):
+        
         wrong_ans = [  ]
         if self.a["correct"] == False:
             wrong_ans.append("a")
