@@ -7,7 +7,7 @@
         "correct": "Green",
         "wrong": ["Blue", "Red", "Yellow"]
       }
-    },
+    }
     {
       "difficulty": 200,
       "question": "Which of these is a common household pet?",
