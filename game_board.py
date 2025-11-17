@@ -13,6 +13,7 @@ class GameBoard:
         self.questions = []
         self.n_lifelines = 3
         self.final_answer = False
+        self.question = None
 
     def __str__(self):
         mystr = f"Player name {self.user}\n"
