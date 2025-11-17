@@ -104,6 +104,7 @@ class GameBoard:
         self.get_user_name()
         print(self)
         ended = False
+        while ended == False:
         result = self.play_round()
         if result == True:
             self.level += 1
