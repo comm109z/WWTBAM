@@ -61,6 +61,8 @@ class GameBoard:
         self.question = random.choice(poss_questions)
 
     def play_round():
+
         self.question.display_to_user()
         while self.final_answer == False:
-            user_ans = input("Your answer: )
+            user_ans = input("Your answer: ")
+            
