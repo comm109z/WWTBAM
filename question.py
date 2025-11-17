@@ -20,7 +20,9 @@ class Question:
         self.c = { "text": answers["wrong"][1], "correct": False  } 
         self.d = { "text": answers["wrong"][2], "correct": False  } 
     
-    def __str__()
+    def __str__(self):
+        mystr = ""
+        
 
     def randomise(self):
         a = self.a
