@@ -37,7 +37,7 @@ class GameBoard:
         while questions_loaded == False:
             try:
                 print(f"Loading text from: {file_to_load}")
-                content = Path(file_to_load).read_txt()
+                content = Path(file_to_load).read_text()
                 print("Loaded text from file")
                 loaded_object = json.loads(content)
                 print("Extracted object")
