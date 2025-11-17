@@ -73,7 +73,7 @@ class GameBoard:
                 final_ans = input("> ")
                 if final_ans..lower() == "y":
                     self.final_answer == True
-        
+        print(f"You selected: {user_ans.upper()}")
 
 
 
