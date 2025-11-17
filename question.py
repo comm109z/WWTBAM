@@ -20,6 +20,8 @@ class Question:
         self.c = { "text": answers["wrong"][1], "correct": False  } 
         self.d = { "text": answers["wrong"][2], "correct": False  } 
     
+
+    
     def randomise(self):
         a = self.a
         b = self.b
@@ -31,3 +33,4 @@ class Question:
         self.b = options[1]
         self.c = options[2]
         self.d = options[3]
+    
