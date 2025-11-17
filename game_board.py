@@ -10,7 +10,7 @@ class GameBoard:
                        16000, 32000, 64000, 125000, 250000, 500000, 1000000 ] # money levels
         self.safe_levels = [ 5, 10 ] 
         self.winnings = 0
-        self.level = 13 # index of round in the board
+        self.level = 0 # index of round in the board
         self.questions = []
         self.n_lifelines = 3
         self.final_answer = False
@@ -137,9 +137,6 @@ class GameBoard:
                 # If the player has completed all 15 levels, end the game
                 if self.level == 15:
                     self.winnings = self.board[self.level]
-
-
-                    
                     ended = True
                 else:
                     # Otherwise, ask the player if they want to continue or walk away
