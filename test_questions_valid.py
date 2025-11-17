@@ -1,4 +1,4 @@
 import json
 from pathlib import Path
 
-p = Path("questi")
+p = Path("questions.json")
