@@ -1,3 +1,5 @@
+
+
 class GameBoard:
     def __init__(self, filename="questions.json"):
         self.user = None
@@ -28,4 +30,5 @@ class GameBoard:
         while len(self.user_name) < 3:
             self.user_name = input("Enter your name: ").title().strip()
 
-    def load_questions(self, file="questions.json"):
+    def load_questions(self, filename="questions.json"):
+
