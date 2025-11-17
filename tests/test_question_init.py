@@ -11,6 +11,8 @@ def test_question_class():
         "wrong": ["Blue", "Red", "Yellow"]
       }
     }
-
+    # initialise Question object with this data
     my_question = Question(question_dict)
+    
+    # check it loads correctly 
     assert my_question.text == question_dict["question"]
