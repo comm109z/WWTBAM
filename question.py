@@ -57,7 +57,7 @@ class Question:
         wrong_ans.pop(random.randint(0,2)) 
 
         for item in wrong_ans:
-            if 
+            if item = "a": 
 
         random.shuffle(wrong_ans)
 
