@@ -58,9 +58,9 @@ class Question:
 
         for item in wrong_ans:
             if item = "a": self.a["text"] = ""
-            if item = "b": self.a["text"] = ""
-            if item = "c": self.a["text"] = ""
-            if item = "d": self.a["text"] = ""
+            elif item = "b": self.b["text"] = ""
+            if item = "c": self.c["text"] = ""
+            if item = "d": self.d["text"] = ""
 
         random.shuffle(wrong_ans)
 
