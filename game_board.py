@@ -72,7 +72,7 @@ class GameBoard:
                 print("Final answer?... (Y/N)")
                 final_ans = input("> ")
                 if final_ans.lower() == "y":
-                    self.final_answer == True
+                    self.final_answer = True
         print(f"You selected: {user_ans.upper()}")
         if self.question.check_ans(user_ans) == "correct":
             print("Correct!")
