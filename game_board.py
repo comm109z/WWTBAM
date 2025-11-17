@@ -16,4 +16,4 @@ class GameBoard:
             else:
                 row_str = "   "
             row_str += f"£{self.board[idx]}"
-            mystr += 
+            mystr += row_str
