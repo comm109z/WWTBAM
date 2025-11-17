@@ -42,4 +42,5 @@ initialise it from the options, correct ans and three wrong ans
 ##### Methods
 
 - initialisation(question_bank_file)
+- start_game()
 - play_round()
