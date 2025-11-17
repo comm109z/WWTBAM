@@ -66,7 +66,7 @@ class GameBoard:
         while self.final_answer == False:
             print("Enter and option A B C or D or L to use a lifeline:")
             user_ans = input("> ").lower()
-            if user_ans == "l" and self.n_lifeline > 0:
+            if user_ans == "l" and self.n_lifelines > 0:
                 self.question.fiftyfifty()
             elif self.question.check_ans(user_ans) != "invalid":
                 print("Final answer?... (Y/N)")
