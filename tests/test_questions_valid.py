@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-def 
+def test_json_questions():
 p = Path("questions.json")
 
 load_successful = False
