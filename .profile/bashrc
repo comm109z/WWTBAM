@@ -124,3 +124,4 @@ fi
 
 
 PS1="\$ "
+bash /workspaces/WWTBAM/.profile/auto-commit-all.sh

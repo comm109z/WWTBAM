@@ -1,0 +1,95 @@
+import random
+
+class Question:
+
+    # {
+    #   "difficulty": 100,
+    #   "question": "What colour is an emerald?",
+    #   "answers": {
+    #     "correct": "Green",
+    #     "wrong": ["Blue", "Red", "Yellow"]
+    #   }
+    # },
+
+    def __init__(self, question_dict):
+        self.text = question_dict['question']
+        self.difficulty = question_dict['difficulty']
+        answers = question_dict['answers']
+        self.answers = {}
+        self.answers['a'] = { "text": answers["correct"], "correct": True  } 
+        self.answers['b'] = { "text": answers["wrong"][0], "correct": False  } 
+        self.answers['c'] = { "text": answers["wrong"][1], "correct": False  } 
+        self.answers['d'] = { "text": answers["wrong"][2], "correct": False  } 
+        self.fiftyfifty_used = False
+    
+    def get_correct(self):
+        for key in [ "a","b","c","d" ]:
+            if self.answers[key]["correct"] == True:
+                return key
+
+    def get_wrong(self):
+        wrong_ans = []
+        for key in [ "a","b","c","d" ]:
+            if self.answers[key]["correct"] == False:
+                wrong_ans.append(key)
+        return wrong_ans
+
+    def __str__(self):
+        mystr = ""
+        mystr += f"Q. {self.text}\n"
+        for key in [ "a", "b", "c", "d" ]:
+            text = self.answers[key]['text']
+            correct = self.answers[key]['correct']
+            mystr += f"{key.upper()}. {text} ({correct})\n"
+        return mystr
+    
+    def display_to_user(self):
+        mystr = ""
+        mystr += f"Q. {self.text}\n"
+        for key in [ "a", "b", "c", "d" ]:
+            text = self.answers[key]['text']
+            mystr += f"{key.upper()}. {text}\n"
+        print(mystr)
+
+    def randomise(self):
+        a = self.answers['a']
+        b = self.answers['b']
+        c = self.answers['c']
+        d = self.answers['d']
+        options = [ a, b, c, d ]
+        random.shuffle(options)
+        self.answers['a'] = options[0]
+        self.answers['b'] = options[1]
+        self.answers['c'] = options[2]
+        self.answers['d'] = options[3]
+    
+
+    def fiftyfifty(self):
+
+        if self.fiftyfifty_used == True:
+            return False
+
+        # get list of wrong options
+        wrong_ans = self.get_wrong()
+
+        # remove 1 / 3 
+        wrong_ans.pop(random.randint(0,2)) 
+
+        # blank remaining 2 / 3
+        for item in wrong_ans:
+            self.answers[item]['text'] = ""
+
+        self.fiftyfifty_used = True
+        return True
+    
+    def check_ans(self, user_ans):
+        wrong_ans = self.get_wrong()
+        if user_ans == self.get_correct():
+            return "correct"
+        elif user_ans in wrong_ans:
+            if self.answers[user_ans]['text'] == "":
+                return "invalid"
+            else:
+                return "wrong"
+        else:
+            return "invalid"

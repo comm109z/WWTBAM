@@ -2,3 +2,23 @@ cat /tmp/auto-commit-workspaces_Workshop-7b.log
 conda activate base
 /workspaces/Workshop-7b/.profile/auto-commit-all.sh
 /workspaces/Workshop-7b/.profile/auto-commit-all.sh -h
+pytest
+python test_questions_valid.py 
+pytest
+python -m pytest
+conda install pytest
+python
+python -m pytest
+python -m pytest .tests/*
+python -m pytest ./tests/*
+python -m pytest ./tests/test*
+python -m pytest 
+pytest
+python -m pytest
+python
+python check_work.py 
+conda activate base
+/opt/conda/bin/python
+python check_work.py 
+python
+python check_work.py 

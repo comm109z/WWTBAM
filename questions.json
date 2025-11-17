@@ -1,0 +1,368 @@
+{
+  "questions": [
+    {
+      "difficulty": 100,
+      "question": "What colour is an emerald?",
+      "answers": {
+        "correct": "Green",
+        "wrong": ["Blue", "Red", "Yellow"]
+      }
+    },
+    {
+      "difficulty": 200,
+      "question": "Which of these is a common household pet?",
+      "answers": {
+        "correct": "Cat",
+        "wrong": ["Hawk", "Shark", "Lizardfish"]
+      }
+    },
+    {
+      "difficulty": 300,
+      "question": "What is the main ingredient in a traditional omelette?",
+      "answers": {
+        "correct": "Eggs",
+        "wrong": ["Bread", "Rice", "Milk"]
+      }
+    },
+    {
+      "difficulty": 500,
+      "question": "Which of these items would you typically wear on your feet?",
+      "answers": {
+        "correct": "Shoes",
+        "wrong": ["Gloves", "Hat", "Scarf"]
+      }
+    },
+    {
+      "difficulty": 1000,
+      "question": "What is the capital of Wales?",
+      "answers": {
+        "correct": "Cardiff",
+        "wrong": ["Swansea", "Newport", "Bangor"]
+      }
+    },
+    {
+      "difficulty": 2000,
+      "question": "Which part of the plant conducts photosynthesis?",
+      "answers": {
+        "correct": "Leaf",
+        "wrong": ["Root", "Stem", "Flower"]
+      }
+    },
+    {
+      "difficulty": 4000,
+      "question": "Which ancient civilisation built the pyramids of Giza?",
+      "answers": {
+        "correct": "The Egyptians",
+        "wrong": ["The Romans", "The Babylonians", "The Persians"]
+      }
+    },
+    {
+      "difficulty": 8000,
+      "question": "What is the largest internal organ in the human body?",
+      "answers": {
+        "correct": "Liver",
+        "wrong": ["Heart", "Lung", "Kidney"]
+      }
+    },
+    {
+      "difficulty": 16000,
+      "question": "Which city is known as the 'Big Apple'?",
+      "answers": {
+        "correct": "New York",
+        "wrong": ["Chicago", "Los Angeles", "Boston"]
+      }
+    },
+    {
+      "difficulty": 32000,
+      "question": "Who painted the famous work 'The Persistence of Memory'?",
+      "answers": {
+        "correct": "Salvador Dalí",
+        "wrong": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh"]
+      }
+    },
+    {
+      "difficulty": 64000,
+      "question": "What is the longest river in the world by most measurements?",
+      "answers": {
+        "correct": "The Nile",
+        "wrong": ["Amazon", "Yangtze", "Mississippi"]
+      }
+    },
+    {
+      "difficulty": 125000,
+      "question": "Which element has the atomic number 1?",
+      "answers": {
+        "correct": "Hydrogen",
+        "wrong": ["Helium", "Lithium", "Oxygen"]
+      }
+    },
+    {
+      "difficulty": 250000,
+      "question": "Which British author created the character Sherlock Holmes?",
+      "answers": {
+        "correct": "Arthur Conan Doyle",
+        "wrong": ["Agatha Christie", "Bram Stoker", "H. G. Wells"]
+      }
+    },
+    {
+      "difficulty": 500000,
+      "question": "Which country is home to the ancient city of Petra?",
+      "answers": {
+        "correct": "Jordan",
+        "wrong": ["Egypt", "Greece", "Turkey"]
+      }
+    },
+    {
+      "difficulty": 1000000,
+      "question": "Which physicist first proposed the theory of general relativity?",
+      "answers": {
+        "correct": "Albert Einstein",
+        "wrong": ["Niels Bohr", "Max Planck", "Erwin Schrödinger"]
+      }
+    },
+    {
+      "difficulty": 100,
+      "question": "Which of these is a common topping for fish and chips?",
+      "answers": {
+        "correct": "Salt",
+        "wrong": ["Sugar", "Cinnamon", "Paprika"]
+      }
+    },
+    {
+      "difficulty": 200,
+      "question": "How many days are there in a leap year?",
+      "answers": {
+        "correct": "366",
+        "wrong": ["364", "365", "368"]
+      }
+    },
+    {
+      "difficulty": 300,
+      "question": "What kind of creature is a penguin?",
+      "answers": {
+        "correct": "Bird",
+        "wrong": ["Fish", "Reptile", "Amphibian"]
+      }
+    },
+    {
+      "difficulty": 500,
+      "question": "Which of these is a traditional British dessert?",
+      "answers": {
+        "correct": "Sticky Toffee Pudding",
+        "wrong": ["Crème Brûlée", "Tiramisu", "Baklava"]
+      }
+    },
+    {
+      "difficulty": 1000,
+      "question": "Which river flows through London?",
+      "answers": {
+        "correct": "The Thames",
+        "wrong": ["The Clyde", "The Mersey", "The Tyne"]
+      }
+    },
+    {
+      "difficulty": 2000,
+      "question": "In which sport would you perform a 'putt'?",
+      "answers": {
+        "correct": "Golf",
+        "wrong": ["Tennis", "Bowling", "Cricket"]
+      }
+    },
+    {
+      "difficulty": 4000,
+      "question": "Which gas makes up most of the Earth's atmosphere?",
+      "answers": {
+        "correct": "Nitrogen",
+        "wrong": ["Oxygen", "Carbon Dioxide", "Helium"]
+      }
+    },
+    {
+      "difficulty": 8000,
+      "question": "Which historical figure is known as the 'Maid of Orléans'?",
+      "answers": {
+        "correct": "Joan of Arc",
+        "wrong": ["Marie Antoinette", "Catherine de' Medici", "Eleanor of Aquitaine"]
+      }
+    },
+    {
+      "difficulty": 16000,
+      "question": "Which composer wrote the Four Seasons?",
+      "answers": {
+        "correct": "Vivaldi",
+        "wrong": ["Mozart", "Beethoven", "Bach"]
+      }
+    },
+    {
+      "difficulty": 32000,
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "answers": {
+        "correct": "Brazil",
+        "wrong": ["China", "UK", "Japan"]
+      }
+    },
+    {
+      "difficulty": 64000,
+      "question": "Which scientist is known for discovering penicillin?",
+      "answers": {
+        "correct": "Alexander Fleming",
+        "wrong": ["Louis Pasteur", "Joseph Lister", "Edward Jenner"]
+      }
+    },
+    {
+      "difficulty": 125000,
+      "question": "Which city is home to the Acropolis?",
+      "answers": {
+        "correct": "Athens",
+        "wrong": ["Rome", "Istanbul", "Alexandria"]
+      }
+    },
+    {
+      "difficulty": 250000,
+      "question": "Which metal is liquid at room temperature?",
+      "answers": {
+        "correct": "Mercury",
+        "wrong": ["Gallium", "Sodium", "Tin"]
+      }
+    },
+    {
+      "difficulty": 500000,
+      "question": "Which author wrote 'The Handmaid's Tale'?",
+      "answers": {
+        "correct": "Margaret Atwood",
+        "wrong": ["Ursula K. Le Guin", "Aldous Huxley", "Doris Lessing"]
+      }
+    },
+    {
+      "difficulty": 1000000,
+      "question": "Which ancient civilisation built the city of Machu Picchu?",
+      "answers": {
+        "correct": "The Inca",
+        "wrong": ["The Maya", "The Aztec", "The Olmec"]
+      }
+    },
+    {
+      "difficulty": 100,
+      "question": "What does the 'U' in 'UK' stand for?",
+      "answers": {
+        "correct": "United",
+        "wrong": ["Universal", "Union", "Urban"]
+      }
+    },
+    {
+      "difficulty": 200,
+      "question": "Which of these is traditionally added to a cup of tea?",
+      "answers": {
+        "correct": "Milk",
+        "wrong": ["Pepper", "Olive Oil", "Vinegar"]
+      }
+    },
+    {
+      "difficulty": 300,
+      "question": "Which of these is a common British coin?",
+      "answers": {
+        "correct": "Penny",
+        "wrong": ["Peso", "Rupee", "Lira"]
+      }
+    },
+    {
+      "difficulty": 500,
+      "question": "Which animal is commonly associated with 'bleating'?",
+      "answers": {
+        "correct": "Sheep",
+        "wrong": ["Horse", "Dog", "Cat"]
+      }
+    },
+    {
+      "difficulty": 1000,
+      "question": "What is the capital city of Scotland?",
+      "answers": {
+        "correct": "Edinburgh",
+        "wrong": ["Glasgow", "Aberdeen", "Dundee"]
+      }
+    },
+    {
+      "difficulty": 2000,
+      "question": "Which famous detective was created by Sir Arthur Conan Doyle?",
+      "answers": {
+        "correct": "Sherlock Holmes",
+        "wrong": ["Hercule Poirot", "Miss Marple", "Sam Spade"]
+      }
+    },
+    {
+      "difficulty": 4000,
+      "question": "What is the chemical symbol for gold?",
+      "answers": {
+        "correct": "Au",
+        "wrong": ["Ag", "Go", "Gd"]
+      }
+    },
+    {
+      "difficulty": 8000,
+      "question": "Which UK Prime Minister declared 'Peace in our time' in 1938?",
+      "answers": {
+        "correct": "Neville Chamberlain",
+        "wrong": ["Winston Churchill", "Clement Attlee", "Stanley Baldwin"]
+      }
+    },
+    {
+      "difficulty": 16000,
+      "question": "Which planet is known as the Red Planet?",
+      "answers": {
+        "correct": "Mars",
+        "wrong": ["Jupiter", "Saturn", "Mercury"]
+      }
+    },
+    {
+      "difficulty": 32000,
+      "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "answers": {
+        "correct": "Hamlet",
+        "wrong": ["Macbeth", "King Lear", "The Tempest"]
+      }
+    },
+    {
+      "difficulty": 64000,
+      "question": "In computing, what does the 'HTTP' in a web address stand for?",
+      "answers": {
+        "correct": "HyperText Transfer Protocol",
+        "wrong": [
+          "High Tech Tracking Program",
+          "Host Terminal Transport Process",
+          "Home Transfer Text Package"
+        ]
+      }
+    },
+    {
+      "difficulty": 125000,
+      "question": "Which famous landmark is also known as the Clock Tower of the Palace of Westminster?",
+      "answers": {
+        "correct": "Big Ben",
+        "wrong": ["London Eye", "The Shard", "Tower Bridge"]
+      }
+    },
+    {
+      "difficulty": 250000,
+      "question": "Which scientist proposed the three laws of motion?",
+      "answers": {
+        "correct": "Isaac Newton",
+        "wrong": ["Albert Einstein", "Galileo Galilei", "Marie Curie"]
+      }
+    },
+    {
+      "difficulty": 500000,
+      "question": "Which sea lies between Saudi Arabia and Africa?",
+      "answers": {
+        "correct": "Red Sea",
+        "wrong": ["Black Sea", "Arabian Sea", "Caspian Sea"]
+      }
+    },
+    {
+      "difficulty": 1000000,
+      "question": "In 1953, who became the first person to successfully summit Mount Everest along with Tenzing Norgay?",
+      "answers": {
+        "correct": "Edmund Hillary",
+        "wrong": ["Reinhold Messner", "George Mallory", "John Hunt"]
+      }
+    }
+  ]
+}

@@ -1,31 +1,48 @@
-## Workshop 7b
+## Who Wants To Be A Millionaire
 
-Please find the instructions for this workshop here: 
+AIM - Develop a version of the game using:
 
-https://github.com/ipynb-python/Workshop-7b-Instructions/blob/main/README.md
+- classes to structure our code
+- question bank stored within files
+- tests to validate the game code
 
-As you work test your code in the terminal e.g. using
-```
-python 7b_part1.py
-```
+### Define Class Structures
 
-After completing the exercises please run the following commands in the terminal.
+`Question` class
 
-These lines will save your code in three stages:
- - modified files are staged to specify which changes will be commited;
- - staged changes are committed to the local git code repository (on the CodeSpace machine)
- - changes are pushed to the remote master copy of the code repository on GitHub website
+#### Attributes
 
-```
-git add .
-git commit -m "finished exercises"
-git push
-```
+ - Question Text
+ - Difficulty
+ - Option A
+ - Option B
+ - Option C
+ - Option D
 
-It is a good habit to commit and push your files everytime you have made a significant change. 
- 
-In this case you can change the commit message, e.g. 
+Each option is dict with text and boolean correct/incorrect
 
-```
-git commit -m "completed part1"
-```
+##### Methods
+
+initialise it from a dictionary (matching the JSON format for storage)
+
+.randomise() shuffle answers randomly
+.fiftyfifty() remove two wrong answers at random
+.check_answer(user_ans) # return "correct" "wrong" "invalid"
+
+`GameBoard` Class
+
+#### Attributes
+
+- money ladder
+- player level (money)
+- question_set
+- lifelines left (number of 50:50s)
+- player names
+- final_answer_locked
+
+
+##### Methods
+
+- initialisation(question_bank_file)
+- start_game()
+- play_round()
