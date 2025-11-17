@@ -25,7 +25,7 @@ class Question:
         d = self.d
         options = [ a, b, c, d ]
         options.shuffle()
-        a = self.a
-        b = self.b
-        c = self.c
+        a = a
+        b = b
+        c = c
         d = self.d
