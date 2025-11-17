@@ -3,5 +3,7 @@
 AIM - Develop a version of the game using:
 
 - classes to structure our code
-- question bank stored 
+- question bank stored within files
 - test driven development
+
+
