@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "difficulty": 100,
+      "question": "What does the 'U' in 'UK' stand for?",
+      "answers": {
+        "correct": "United",
+        "wrong": ["Universal", "Union", "Urban"]
+      }
+    },
+    {
+      "difficulty": 200,
+      "question": "Which of these is traditionally added to a cup of tea?",
+      "answers": {
+        "correct": "Milk",
+        "wrong": ["Pepper", "Olive Oil", "Vinegar"]
+      }
+    },
+    {
+      "difficulty": 300,
+      "question": "Which of these is a common British coin?",
+      "answers": {
+        "correct": "Penny",
+        "wrong": ["Peso", "Rupee", "Lira"]
+      }
+    },
+    {
+      "difficulty": 500,
+      "question": "Which animal is commonly associated with 'bleating'?",
+      "answers": {
+        "correct": "Sheep",
+        "wrong": ["Horse", "Dog", "Cat"]
+      }
+    },
+    {
+      "difficulty": 1000,
+      "question": "What is the capital city of Scotland?",
+      "answers": {
+        "correct": "Edinburgh",
+        "wrong": ["Glasgow", "Aberdeen", "Dundee"]
+      }
+    },
+    {
+      "difficulty": 2000,
+      "question": "Which famous detective was created by Sir Arthur Conan Doyle?",
+      "answers": {
+        "correct": "Sherlock Holmes",
+        "wrong": ["Hercule Poirot", "Miss Marple", "Sam Spade"]
+      }
+    },
+    {
+      "difficulty": 4000,
+      "question": "What is the chemical symbol for gold?",
+      "answers": {
+        "correct": "Au",
+        "wrong": ["Ag", "Go", "Gd"]
+      }
+    },
+    {
+      "difficulty": 8000,
+      "question": "Which UK Prime Minister declared 'Peace in our time' in 1938?",
+      "answers": {
+        "correct": "Neville Chamberlain",
+        "wrong": ["Winston Churchill", "Clement Attlee", "Stanley Baldwin"]
+      }
+    },
+    {
+      "difficulty": 16000,
+      "question": "Which planet is known as the Red Planet?",
+      "answers": {
+        "correct": "Mars",
+        "wrong": ["Jupiter", "Saturn", "Mercury"]
+      }
+    },
+    {
+      "difficulty": 32000,
+      "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "answers": {
+        "correct": "Hamlet",
+        "wrong": ["Macbeth", "King Lear", "The Tempest"]
+      }
+    },
+    {
+      "difficulty": 64000,
+      "question": "In computing, what does the 'HTTP' in a web address stand for?",
+      "answers": {
+        "correct": "HyperText Transfer Protocol",
+        "wrong": [
+          "High Tech Tracking Program",
+          "Host Terminal Transport Process",
+          "Home Transfer Text Package"
+        ]
+      }
+    },
+    {
+      "difficulty": 125000,
+      "question": "Which famous landmark is also known as the Clock Tower of the Palace of Westminster?",
+      "answers": {
+        "correct": "Big Ben",
+        "wrong": ["London Eye", "The Shard", "Tower Bridge"]
+      }
+    },
+    {
+      "difficulty": 250000,
+      "question": "Which scientist proposed the three laws of motion?",
+      "answers": {
+        "correct": "Isaac Newton",
+        "wrong": ["Albert Einstein", "Galileo Galilei", "Marie Curie"]
+      }
+    },
+    {
+      "difficulty": 500000,
+      "question": "Which sea lies between Saudi Arabia and Africa?",
+      "answers": {
+        "correct": "Red Sea",
+        "wrong": ["Black Sea", "Arabian Sea", "Caspian Sea"]
+      }
+    },
+    {
+      "difficulty": 1000000,
+      "question": "In 1953, who became the first person to successfully summit Mount Everest along with Tenzing Norgay?",
+      "answers": {
+        "correct": "Edmund Hillary",
+        "wrong": ["Reinhold Messner", "George Mallory", "John Hunt"]
+      }
+    }
+  ]
+}
