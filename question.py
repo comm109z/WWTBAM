@@ -11,6 +11,5 @@ class Question:
 
     def __init__(self, question_dict):
         answers = question_dict['answers']
-        correct = 
-        self.a = 
+        self.a = answers[""]
         
