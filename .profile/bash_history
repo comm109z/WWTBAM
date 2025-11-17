@@ -16,3 +16,4 @@ python -m pytest
 pytest
 python -m pytest
 python
+python check_work.py 
