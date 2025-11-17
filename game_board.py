@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 from question import Question
-
+import random
 
 class GameBoard:
     def __init__(self, filename="questions.json"):
