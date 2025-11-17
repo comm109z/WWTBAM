@@ -9,7 +9,8 @@ load_successful = False
 try:
     content = p.read_text()
     questions = json.loads(content)
-except:
     
+except:
+    pass
 
 print(questions)
