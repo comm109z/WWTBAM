@@ -24,4 +24,5 @@ class GameBoard:
         return mystr
     
     def get_user_name():
-        while len
+        user_name = ""
+        while len()
