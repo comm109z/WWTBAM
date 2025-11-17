@@ -1,6 +1,6 @@
 from question import Question
 
-def test_question_class():
+def test_question_init():
     # create sample question data
     # matching json storage format
     question_dict = {  "difficulty": 100,
