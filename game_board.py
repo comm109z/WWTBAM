@@ -25,4 +25,5 @@ class GameBoard:
     
     def get_user_name():
         user_name = ""
-        while len(user_name) > 3
+        while len(user_name) > 3:
+            user_name = 
