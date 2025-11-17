@@ -11,6 +11,7 @@ class Question:
 
     def __init__(self, question_dict):
         self.text = question_dict['question']
+        self.difficulty = question_dict['difficulty']
         answers = question_dict['answers']
         self.a = { "text": answers["correct"], "correct": True  } 
         self.b = { "text": answers["wrong"][0], "correct": False  } 
