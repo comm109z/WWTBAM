@@ -38,8 +38,9 @@ class Question:
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
-        for item in 
-        mystr += f"A. {self.a['text']} ({self.a['correct']})\n"
+        for key in [ "a","b","c","d" ]:
+            
+        
         mystr += f"B. {self.b['text']} ({self.b['correct']})\n"
         mystr += f"C. {self.c['text']} ({self.c['correct']})\n"
         mystr += f"D. {self.d['text']} ({self.d['correct']})\n"
