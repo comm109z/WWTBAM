@@ -3,4 +3,11 @@ from pathlib import Path
 import question
 
 def test_question_class():
-    
+    question_dict = {
+      "difficulty": 100,
+      "question": "What colour is an emerald?",
+      "answers": {
+        "correct": "Green",
+        "wrong": ["Blue", "Red", "Yellow"]
+      }
+    }
