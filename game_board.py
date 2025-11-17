@@ -58,4 +58,4 @@ class GameBoard:
         for item in self.questions:
             if item['difficulty'] == money_amount:
                 poss_questions.append(item)
-        return random.choice(poss_questions)
+        self.question = random.choice(poss_questions)
