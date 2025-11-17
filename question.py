@@ -54,9 +54,10 @@ class Question:
         if self.a["correct"] == False:
             wrong_ans.append("d")
 
-        # remove one 
+        # remove 1 / 3 
         wrong_ans.pop(random.randint(0,2)) 
 
+        # blank remaining 
         for item in wrong_ans:
             if item = "a": self.a["text"] = ""
             elif item = "b": self.b["text"] = ""
