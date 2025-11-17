@@ -6,6 +6,7 @@ content = p.read_text()
 
 load_successful = False
 
-questions = json.loads(content)
+try:
+    questions = json.loads(content)
 
 print(questions)
