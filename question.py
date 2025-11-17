@@ -93,19 +93,19 @@ class Question:
             # otherwise must be wrong
             else:
                 return "wrong"
-        if user_ans == "a":
+        if user_ans == "c":
             # check answer not eliminated
-            if self.a['text'] == "":
+            if self.c['text'] == "":
                 return "invalid"
             # check if correct
-            elif self.a["correct"]:
+            elif self.c["correct"]:
                 return "correct"
             # otherwise must be wrong
             else:
                 return "wrong"
-        if user_ans == "a":
+        if user_ans == "d":
             # check answer not eliminated
-            if self.a['text'] == "":
+            if self.d['text'] == "":
                 return "invalid"
             # check if correct
             elif self.a["correct"]:
