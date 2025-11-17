@@ -33,6 +33,8 @@ initialise it from the options, correct ans and three wrong ans
 
 - money ladder
 - player level (money)
+- question_set
+- lifelin
 
 
 
