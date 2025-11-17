@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-import question
+from question import Question
 
 def test_question_class():
     question_dict = {
