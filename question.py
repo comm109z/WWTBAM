@@ -21,7 +21,7 @@ class Question:
         self.answers['c'] = { "text": answers["wrong"][1], "correct": False  } 
         self.answers['d'] = { "text": answers["wrong"][2], "correct": False  } 
         self.answers['correct'] = 
-        
+        self.answers['wrong'] = 
         self.fiftyfifty_used = False
     
     def __str__(self):
