@@ -40,8 +40,8 @@ class Question:
         mystr += f"Q. {self.text}\n"
         for key in [ "a","b","c","d" ]:
             text = self.answer[key]['text']
-            correct = self.answer[key]['text']
-            mystr += f"{key.upper()}. {} ({self.a['correct']})\n"
+            correct = self.answer[key]['correct']
+            mystr += f"{key.upper()}. {text} ({self.a['correct']})\n"
         
         mystr += f"B. {self.b['text']} ({self.b['correct']})\n"
         mystr += f"C. {self.c['text']} ({self.c['correct']})\n"
