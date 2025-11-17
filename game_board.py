@@ -25,6 +25,6 @@ class GameBoard:
     
     def get_user_name(self):
         user_name = ""
-        while len(user_name) > 3:
-            user_name = input("Enter your name: ").title().strip()
-        
+        while len(self.user_name) > 3:
+            self.user_name = input("Enter your name: ").title().strip()
+        self.user_name = 
