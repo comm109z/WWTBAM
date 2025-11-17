@@ -13,3 +13,4 @@ try:
 except:
     pass
 
+assert load_successful == True
