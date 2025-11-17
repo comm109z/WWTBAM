@@ -43,13 +43,13 @@ class Question:
             mystr += f"{key.upper()}. {text} ({correct})\n"
         return mystr
     
-        def __str__(self):
+    def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
         for key in [ "a", "b", "c", "d" ]:
             text = self.answers[key]['text']
             correct = self.answers[key]['correct']
-            mystr += f"{key.upper()}. {text} ({correct})\n"
+            mystr += f"{key.upper()}. {text}\n"
         return mystr
 
     def randomise(self):
