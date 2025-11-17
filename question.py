@@ -76,9 +76,9 @@ class Question:
         return True
     
     def check_ans(self, user_ans):
+        wrong_ans = self.get_wrong()
         if user_ans == self.get_correct():
             return "correct"
-        wrong_ans = self.get_wrong()
         elif user_ans in wrong_ans:
             if self.answers[user_ans]['text'] == "":
                 return "invalid"
