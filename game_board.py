@@ -18,4 +18,4 @@ class GameBoard:
                 row_str = "   "
             row_str += f"£{self.board[idx]}"
             mystr += row_str
-        
+        mystr += "Lifelines: {self.n_lifelines}"
