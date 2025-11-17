@@ -126,8 +126,8 @@ class GameBoard:
                 # Player answered correctly → move up one level
                 self.level += 1
 
-                if self.level >= 11:
-                    self.winnings = self.board[]   # Player reached the second safety net
+                if self.level = 11:
+                    self.winnings = self.board[self.level]
                 elif self.level > 5:
                     self.level = 5    # Player reached only the first safety net
                 else:
