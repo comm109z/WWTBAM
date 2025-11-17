@@ -14,7 +14,6 @@ class GameBoard:
         self.n_lifelines = 3
         self.final_answer = False
         self.question = None
-        self.get_next_question
 
     def __str__(self):
         mystr = f"Player name {self.user}\n"
@@ -53,3 +52,4 @@ class GameBoard:
                 print("Could not load questions!")
                 file_to_load = input("Enter the question file: ").strip()
 
+    
