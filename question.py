@@ -10,5 +10,5 @@ class Question:
     # },
 
     def __init__(self, question_dict):
-        self.a = 
+        self.a = question_dict
         
