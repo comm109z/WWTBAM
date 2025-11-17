@@ -36,8 +36,7 @@ initialise it from the options, correct ans and three wrong ans
 - question_set
 - lifelines left (number of 50:50s)
 - player names
-- final_answer_taken
-
+- final_answer_locked
 
 
 ##### Methods
