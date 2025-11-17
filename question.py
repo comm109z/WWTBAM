@@ -82,6 +82,9 @@ class Question:
         if user_ans in wrong_ans:
             if self.answers[user_ans]['text'] == "":
                 return "invalid"
+            else:
+                return "wrong"
+        
         if user_ans == "a":
             # check answer not eliminated
             if self.a['text'] == "":
