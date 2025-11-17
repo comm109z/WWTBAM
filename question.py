@@ -25,7 +25,7 @@ class Question:
         self.fiftyfifty_used = False
     
     def get_correct(self):
-        for 
+        for key in 
 
     def __str__(self):
         mystr = ""
