@@ -61,5 +61,5 @@ class GameBoard:
         self.question = random.choice(poss_questions)
 
     def play_round():
-        print(self.question)
+        self.question.
         user_ans = 
