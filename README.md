@@ -23,7 +23,8 @@ Each option is dict with text and boolean correct/incorrect
 
 initialise it from the options, correct ans and three wrong ans
 
-.randomise() allocate answers r
+.randomise() shuffle answers randomly
+
 
 `GameBoard` Class
 
