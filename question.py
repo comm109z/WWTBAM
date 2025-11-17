@@ -78,11 +78,5 @@ class Question:
                 return "invalid"
             elif self.a["correct"]:
                 return "correct"
-            
-            return True
-        if user_ans == "b" and self.a["correct"]:
-            return True
-        if user_ans == "c" and self.a["correct"]:
-            return True
-        if user_ans == "d" and self.a["correct"]:
-            return True
+            else:
+                return "wrong"
