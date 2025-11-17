@@ -55,4 +55,4 @@ class GameBoard:
     def get_next_question(self):
         poss_questions = []
         for item in self.questions:
-            if 
+            if item['difficulty'] == self.
