@@ -20,7 +20,7 @@ class Question:
         self.answers['b'] = { "text": answers["wrong"][0], "correct": False  } 
         self.answers['c'] = { "text": answers["wrong"][1], "correct": False  } 
         self.answers['d'] = { "text": answers["wrong"][2], "correct": False  } 
-        self.answers['correct'] = 
+        self.answers['correct'] = self.get_correct()
         self.answers['wrong'] = 
         self.fiftyfifty_used = False
     
