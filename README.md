@@ -41,5 +41,5 @@ initialise it from the options, correct ans and three wrong ans
 
 ##### Methods
 
-
+- initialisation(
 - play_round()
