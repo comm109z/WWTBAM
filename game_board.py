@@ -72,7 +72,7 @@ class GameBoard:
                 print("Final answer?... (Y/N)")
                 final_ans = input("> ")
                 if final_ans..lower() == "y":
-                    self.final_answer == False
+                    self.final_answer == True
 
 
 
