@@ -38,7 +38,7 @@ class Question:
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
-        for key in [ "a","b","c","d" ]:
+        for key in [ "a", "b", "c", "d" ]:
             text = self.answer[key]['text']
             correct = self.answer[key]['correct']
             mystr += f"{key.upper()}. {text} ({correct})\n"
