@@ -23,7 +23,7 @@ Each option is dict with text and boolean correct/incorrect
 
 ##### Methods
 
-initialise it from the options, correct ans and three wrong ans
+initialise it from a , correct ans and three wrong ans
 
 .randomise() shuffle answers randomly
 .fiftyfifty() remove two wrong answers at random
