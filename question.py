@@ -83,3 +83,33 @@ class Question:
             # otherwise must be wrong
             else:
                 return "wrong"
+        if user_ans == "a":
+            # check answer not eliminated
+            if self.a['text'] == "":
+                return "invalid"
+            # check if correct
+            elif self.a["correct"]:
+                return "correct"
+            # otherwise must be wrong
+            else:
+                return "wrong"
+        if user_ans == "a":
+            # check answer not eliminated
+            if self.a['text'] == "":
+                return "invalid"
+            # check if correct
+            elif self.a["correct"]:
+                return "correct"
+            # otherwise must be wrong
+            else:
+                return "wrong"
+        if user_ans == "a":
+            # check answer not eliminated
+            if self.a['text'] == "":
+                return "invalid"
+            # check if correct
+            elif self.a["correct"]:
+                return "correct"
+            # otherwise must be wrong
+            else:
+                return "wrong"
