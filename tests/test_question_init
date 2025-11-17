@@ -11,4 +11,5 @@ def test_question_class():
         "wrong": ["Blue", "Red", "Yellow"]
       }
     }
-    my_question = Question()
+    my_question = Question(question_dict)
+    assert 
