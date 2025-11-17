@@ -27,6 +27,6 @@ print(len(board.questions))
 
 board.load_questions()
 print(len(board.questions))
-print(board.questions)
+print(board.question)
 board.get_next_question()
-print(board.questions)
+print(board.question)
