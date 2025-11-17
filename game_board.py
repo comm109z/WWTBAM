@@ -135,7 +135,7 @@ class GameBoard:
                 if self.level >= len(self.board):
                     ended = True
 
-            
+            carry_on = 
 
             else:
                 # Player answered incorrectly → game ends immediately
