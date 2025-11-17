@@ -26,12 +26,12 @@ class Question:
     
     def get_correct(self):
         for key in [ "a","b","c","d" ]:
-            if self.answers[key]["correct"] == True
+            if self.answers[key]["correct"] == True:
                 return key
 
     def get_wrong(self):
         for key in [ "a","b","c","d" ]:
-            if self.answers[key]["correct"] == True
+            if self.answers[key]["correct"] == False:
                 return key
 
 
