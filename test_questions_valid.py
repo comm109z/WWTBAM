@@ -3,7 +3,6 @@ from pathlib import Path
 
 p = Path("questions.json")
 
-
 load_successful = False
 
 try:
