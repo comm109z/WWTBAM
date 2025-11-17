@@ -23,7 +23,10 @@ class Question:
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
-        mystr += f"A. {self.text}\n"
+        mystr += f"A. {self.a}\n"
+        mystr += f"A. {self.a}\n"
+        mystr += f"A. {self.a}\n"
+        mystr += f"A. {self.a}\n"
 
     def randomise(self):
         a = self.a
