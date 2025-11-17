@@ -21,7 +21,7 @@ Each option is dict with text and boolean correct/incorrect
 
 ##### Methods
 
-
+initialise it from the 
 
 `GameBoard` Class
 
