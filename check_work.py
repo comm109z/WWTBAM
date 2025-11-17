@@ -27,4 +27,4 @@ print(len(board.questions))
 
 board.load_questions()
 print(len(board.questions))
-board.play_round()
+board.play_game()
