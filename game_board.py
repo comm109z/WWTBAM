@@ -28,4 +28,4 @@ class GameBoard:
         while len(self.user_name) < 3:
             self.user_name = input("Enter your name: ").title().strip()
 
-    def load_questions(self, file):
+    def load_questions(self, file="questions.json"):
