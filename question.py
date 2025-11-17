@@ -13,6 +13,6 @@ class Question:
         answers = question_dict['answers']
         self.a = { "text": answers["correct"], "correct": True  } 
         self.b = { "text": answers["wrong"][0], "correct": True  } 
-        self.c = { "text": answers["wrong"], "correct": True  } 
-        self.d = { "text": answers["wrong"], "correct": True  } 
+        self.c = { "text": answers["wrong"][1], "correct": True  } 
+        self.d = { "text": answers["wrong"][2], "correct": True  } 
         
