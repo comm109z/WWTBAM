@@ -70,7 +70,8 @@ class GameBoard:
                 self.question.fiftyfifty()
             elif self.question(user_ans) != "invalid":
                 print("Final answer?... (Y/N)")
-                user_ans = input("> ")
+                final_ans = input("> ")
+                if 
 
 
 
