@@ -137,6 +137,9 @@ class GameBoard:
                 # If the player has completed all 15 levels, end the game
                 if self.level == 15:
                     self.winnings = self.board[self.level]
+
+
+                    
                     ended = True
                 else:
                     # Otherwise, ask the player if they want to continue or walk away
