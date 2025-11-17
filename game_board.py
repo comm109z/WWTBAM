@@ -11,4 +11,4 @@ class GameBoard:
         mystr = f"Player name {self.user}\n"
         mystr += "\n"
         for idx in range(len(self.board)):
-            if 
+            if idx = self.level:
