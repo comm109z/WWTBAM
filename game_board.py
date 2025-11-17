@@ -31,8 +31,9 @@ class GameBoard:
             self.user_name = input("Enter your name: ").title().strip()
 
     def load_questions(self, filename="questions.json"):
+        
         try:
-            
+            file_to_load = filename
             content = Path(filename).read_txt()
             self.questions = json.loads(content)
         except:
