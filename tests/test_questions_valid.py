@@ -2,15 +2,15 @@ import json
 from pathlib import Path
 
 def test_json_questions():
-p = Path("questions.json")
+    p = Path("questions.json")
 
-load_successful = False
+    load_successful = False
 
-try:
-    content = p.read_text()
-    questions = json.loads(content)
-    load_successful = True
-except:
-    pass
+    try:
+        content = p.read_text()
+        questions = json.loads(content)
+        load_successful = True
+    except:
+        pass
 
-assert load_successful == True
+    assert load_successful == True
