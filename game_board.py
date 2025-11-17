@@ -59,3 +59,6 @@ class GameBoard:
             if item.difficulty == money_amount:
                 poss_questions.append(item)
         self.question = random.choice(poss_questions)
+
+    def play_round():
+        
