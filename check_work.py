@@ -21,3 +21,5 @@ from game_board import GameBoard
 # print(f"b is ... {my_question.check_ans('c')}")
 # print(f"b is ... {my_question.check_ans('d')}")
 
+board = GameBoard()
+print(board)
