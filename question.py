@@ -103,7 +103,7 @@ class Question:
             # otherwise must be wrong
             else:
                 return "wrong"
-        if user_ans == "d":
+        elif user_ans == "d":
             # check answer not eliminated
             if self.d['text'] == "":
                 return "invalid"
@@ -113,3 +113,4 @@ class Question:
             # otherwise must be wrong
             else:
                 return "wrong"
+        elif:
