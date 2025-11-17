@@ -70,5 +70,5 @@ class Question:
             elif item == "d": self.d["text"] = ""
 
         self.fiftyfifty_used = True
-        
+        return True
             
