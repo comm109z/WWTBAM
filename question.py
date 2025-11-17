@@ -23,7 +23,7 @@ class Question:
     def __str__(self):
         mystr = ""
         mystr += f"Q. {self.text}\n"
-        mystr += f"A. {self.a (self.) }\n"
+        mystr += f"A. {self.a ({self.correct}) }\n"
         mystr += f"B. {self.b}\n"
         mystr += f"D. {self.c}\n"
         mystr += f"D. {self.d}\n"
