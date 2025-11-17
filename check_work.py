@@ -27,3 +27,4 @@ print(len(board.questions))
 
 board.load_questions()
 print(len(board.questions))
+print(len(board.questions))
